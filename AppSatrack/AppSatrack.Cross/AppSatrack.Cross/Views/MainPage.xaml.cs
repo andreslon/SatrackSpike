@@ -13,6 +13,12 @@ namespace AppSatrack.Cross.Views
         public MainPage()
         {
             InitializeComponent();
+            btn1.Clicked += Btn1_Clicked;
+        }
+
+        private void Btn1_Clicked(object sender, EventArgs e)
+        {
+            //Llmar un progress
         }
     }
 }

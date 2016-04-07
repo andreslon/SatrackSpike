@@ -1,0 +1,6 @@
+D:\Repos\SatrackSpike\AppSatrack\AppSatrack.Logic\bin\Debug\AppSatrack.Logic.dll
+D:\Repos\SatrackSpike\AppSatrack\AppSatrack.Logic\bin\Debug\AppSatrack.Logic.pdb
+D:\Repos\SatrackSpike\AppSatrack\AppSatrack.Logic\obj\Debug\AppSatrack.Logic.dll
+D:\Repos\SatrackSpike\AppSatrack\AppSatrack.Logic\obj\Debug\AppSatrack.Logic.pdb
+D:\Repos\SatrackSpike\AppSatrack\AppSatrack.Logic\obj\Debug\AppSatrack.Logic.dll.mdb
+D:\Repos\SatrackSpike\AppSatrack\AppSatrack.Logic\bin\Debug\AppSatrack.Logic.dll.mdb

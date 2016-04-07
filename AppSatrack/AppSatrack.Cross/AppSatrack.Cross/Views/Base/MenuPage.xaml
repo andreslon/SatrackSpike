@@ -4,8 +4,15 @@
              x:Class="AppSatrack.Cross.Views.Base.MenuPage"
              Title="spike" BackgroundColor="#ffffff"
              Icon="ic_menu_white_48dp.png">
-  <ListView x:Name="mylist">
-    
-    
-  </ListView>
+  <Grid>
+    <ListView x:Name="lstmenu"  >
+      <ListView.ItemTemplate>
+        <DataTemplate>
+           <TextCell Text="{Binding title}" />
+        </DataTemplate>
+      </ListView.ItemTemplate>
+    </ListView>
+  
+
+  </Grid>
 </ContentPage>

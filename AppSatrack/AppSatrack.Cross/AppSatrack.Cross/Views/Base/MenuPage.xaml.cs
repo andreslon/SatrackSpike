@@ -1,4 +1,5 @@
-﻿using System;
+﻿using AppSatrack.Logic.ViewModels;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -13,6 +14,8 @@ namespace AppSatrack.Cross.Views.Base
         public MenuPage()
         {
             InitializeComponent();
+            this.BindingContext = new MainViewModel();
+            lstmenu.ItemsSource = ((MainViewModel)this.BindingContext).listmenu;
         }
     }
 }

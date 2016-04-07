@@ -11,9 +11,9 @@ namespace AppSatrack.Logic.ViewModels
 
         }   
 
-        public String title { get; set; }
+        public string title { get; set; }
 
-        public String image { get; set; }
+        public string image { get; set; }
 
 
     }
