@@ -1,6 +1,48 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="AppSatrack.Cross.Views.MainPage" Title="">
-  <Label Text="hola" VerticalOptions="Center" HorizontalOptions="Center" />
+             x:Class="AppSatrack.Cross.Views.MainPage" Title=""
+             
+             >
+
+  <Grid >
+    <ListView  x:Name="listView" HasUnevenRows="True">   
+
+      <ListView.ItemTemplate>
+        <DataTemplate>
+          <ViewCell>
+            <Grid>
+              <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="80"></ColumnDefinition>
+                <ColumnDefinition Width="*"></ColumnDefinition> 
+                <ColumnDefinition Width="100"></ColumnDefinition>                
+              </Grid.ColumnDefinitions>
+              <Grid Grid.Column="0">
+                <Label BackgroundColor="{Binding _Attend, Converter = { StaticResource AttendToColorConverter}}" Text="{Binding Attend}" TextColor="White"></Label>
+              </Grid>
+              <Grid Grid.Column="1">
+                <StackLayout>
+                  <Label Text="{Binding TypeEvent}"></Label>
+                  <Label Text="{Binding Vehicle}" FontAttributes="Bold"></Label>                  
+                </StackLayout>
+              </Grid>
+              <Grid Grid.Column="2">
+                <Label Text="{Binding AlarmDate}"></Label>
+              </Grid>
+            </Grid>
+            
+            <!--<StackLayout
+            Orientation="Vertical" Padding="15,5">
+              <Grid Orientation="Horizontal" BackgroundColor="White">
+                <Image Source="{Binding image}" />
+                <Label Text="{Binding title}"
+                TextColor="{StaticResource FontLigthColor}" />
+              </Grid>
+            </StackLayout>-->
+          </ViewCell>
+        </DataTemplate>
+      </ListView.ItemTemplate>
+    </ListView>
+  </Grid>
+
 </ContentPage>

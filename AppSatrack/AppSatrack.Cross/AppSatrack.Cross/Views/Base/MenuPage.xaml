@@ -7,10 +7,12 @@
   <Grid>
     <ListView  x:Name="listView" HasUnevenRows="True">
       <ListView.Header>
-        <StackLayout BackgroundColor="{StaticResource PrimaryColor}" Padding="20" HeightRequest="150">
-          <Image Source="icon.png"></Image>
-          <Label Text="spike satrack" TextColor="{StaticResource FontLigthColor}"></Label>
-        </StackLayout>        
+        <Grid BackgroundColor="{StaticResource PrimaryColor}" HeightRequest="150">
+          <Image Source="material_background2.jpg" Aspect="Fill"></Image>
+          <Grid Padding="20">
+          <Label Text="spike satrack" TextColor="{StaticResource FontLigthColor}" VerticalOptions="End"></Label>
+          </Grid>
+        </Grid>        
       </ListView.Header>  
       
       <ListView.ItemTemplate>
