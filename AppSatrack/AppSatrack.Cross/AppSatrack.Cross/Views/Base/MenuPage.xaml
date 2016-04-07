@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppSatrack.Cross.Views.Base.MenuPage"
+             Title="spike" BackgroundColor="{StaticResource MeneBackgroundColor}"
+             Icon="ic_menu_white_48dp.png">
+  <Grid>
+    <ListView  x:Name="listView" HasUnevenRows="True">
+      <ListView.Header>
+        <StackLayout BackgroundColor="{StaticResource PrimaryColor}" Padding="20" HeightRequest="150">
+          <Image Source="icon.png"></Image>
+          <Label Text="spike satrack" TextColor="{StaticResource FontLigthColor}"></Label>
+        </StackLayout>        
+      </ListView.Header>  
+      
+      <ListView.ItemTemplate>
+        <DataTemplate>
+          <ViewCell>
+            <StackLayout 
+            Orientation="Vertical" Padding="15,5">
+              <StackLayout Orientation="Horizontal">
+                <Image Source="{Binding image}" />
+                <Label Text="{Binding title}"
+                TextColor="{StaticResource FontLigthColor}" />
+              </StackLayout>
+            </StackLayout>
+          </ViewCell>
+        </DataTemplate>
+      </ListView.ItemTemplate>
+    </ListView>
+  </Grid>
+</ContentPage>
