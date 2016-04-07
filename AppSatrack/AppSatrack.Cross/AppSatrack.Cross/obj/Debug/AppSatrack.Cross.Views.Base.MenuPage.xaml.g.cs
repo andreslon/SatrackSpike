@@ -17,12 +17,12 @@ namespace AppSatrack.Cross.Views.Base {
     public partial class MenuPage : global::Xamarin.Forms.ContentPage {
         
         [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
-        private global::Xamarin.Forms.ListView mylist;
+        private global::Xamarin.Forms.ListView listView;
         
         [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private void InitializeComponent() {
             this.LoadFromXaml(typeof(MenuPage));
-            mylist = this.FindByName<global::Xamarin.Forms.ListView>("mylist");
+            listView = this.FindByName<global::Xamarin.Forms.ListView>("listView");
         }
     }
 }

@@ -65,6 +65,7 @@ D:\REPOSITORY\AppSatrack\AppSatrack.Cross\AppSatrack.Cross.Droid\obj\Debug\assem
 D:\REPOSITORY\AppSatrack\AppSatrack.Cross\AppSatrack.Cross.Droid\obj\Debug\assemblies\System.Xml.ReaderWriter.dll
 D:\REPOSITORY\AppSatrack\AppSatrack.Cross\AppSatrack.Cross.Droid\obj\Debug\assemblies\System.Xml.XDocument.dll
 D:\REPOSITORY\AppSatrack\AppSatrack.Cross\AppSatrack.Cross.Droid\obj\Debug\assemblies\System.Xml.XmlSerializer.dll
+D:\REPOSITORY\AppSatrack\AppSatrack.Cross\AppSatrack.Cross.Droid\obj\Debug\assemblies\AppSatrack.Logic.dll
 D:\REPOSITORY\AppSatrack\AppSatrack.Cross\AppSatrack.Cross.Droid\obj\Debug\assemblies\System.Runtime.Serialization.dll
 D:\REPOSITORY\AppSatrack\AppSatrack.Cross\AppSatrack.Cross.Droid\obj\Debug\assemblies\System.ServiceModel.Internals.dll
 D:\REPOSITORY\AppSatrack\AppSatrack.Cross\AppSatrack.Cross.Droid\obj\Debug\assemblies\System.Net.Http.dll

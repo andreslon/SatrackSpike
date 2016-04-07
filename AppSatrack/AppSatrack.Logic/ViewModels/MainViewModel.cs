@@ -7,7 +7,7 @@ namespace AppSatrack.Logic.ViewModels
 {
     public class MainViewModel
     {
-        List<MenuViewModel> listmenu;
+        public List<MenuViewModel> listmenu;
         public MainViewModel()
         {
             listmenu = new List<MenuViewModel>();
