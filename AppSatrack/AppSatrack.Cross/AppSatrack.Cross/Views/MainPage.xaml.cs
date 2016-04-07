@@ -1,4 +1,5 @@
-﻿using System;
+﻿using AppSatrack.Logic.ViewModels;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -13,6 +14,9 @@ namespace AppSatrack.Cross.Views
         public MainPage()
         {
             InitializeComponent();
+
+            this.BindingContext = new MainViewModel();
+            listViewAlarma.ItemsSource = ((MainViewModel)this.BindingContext).listAlarma;
         }
     }
 }

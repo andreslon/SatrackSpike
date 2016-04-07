@@ -1,11 +1,18 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Application xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:converters="clr-namespace:AppSatrack.Cross.Converters;assembly=AppSatrack.Cross"
              x:Class="AppSatrack.Cross.App">
 
   <Application.Resources>
     <ResourceDictionary>
+      <converters:AtendidaToColorConverter x:Key="AtendidaToColorConverter"></converters:AtendidaToColorConverter>
+      
       <Color x:Key="PrimaryColor">#3498db</Color>
+      
+      <Color x:Key="AlarmaAtendida">#2980b9</Color>
+      <Color x:Key="AlarmaNOAtendida">#f1c40f</Color>
+      
       <Color x:Key="PrimaryDarkColor">#2980b9</Color>
       <Color x:Key="FontColor">#808080</Color>
       <Color x:Key="MeneBackgroundColor">#2c3e50</Color>      
