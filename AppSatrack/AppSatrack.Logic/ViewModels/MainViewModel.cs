@@ -7,14 +7,43 @@ namespace AppSatrack.Logic.ViewModels
 {
     public class MainViewModel
     {
-        public List<MenuViewModel> listmenu;
+        public List<MenuViewModel> listmenu { get; set; }
+        public List<AlarmsViewModel> Alarms { get; set; }
+
         public MainViewModel()
         {
             listmenu = new List<MenuViewModel>();
             listmenu.Add(new MenuViewModel { title = "Ubicaciones", image = "icon.png" });
             listmenu.Add(new MenuViewModel { title = "Alarmas", image = "icon.png" });
             listmenu.Add(new MenuViewModel { title = "Noticias", image = "icon.png" });
+
+            Alarms = new List<AlarmsViewModel>();
+
+            GetAlarms();
+
+
         }
 
+        private void GetAlarms()
+        {
+            //api 
+
+            Alarms.Add(new AlarmsViewModel { Evento = "Abandono de la región", Placa = "WLR426", Fecha = DateTime.Now, Atendida = "true" });
+            Alarms.Add(new AlarmsViewModel { Evento = "Abandono de la región", Placa = "WLR426", Fecha = DateTime.Now, Atendida = "false" });
+            Alarms.Add(new AlarmsViewModel { Evento = "Abandono de la región", Placa = "WLR426", Fecha = DateTime.Now, Atendida = "false" });
+            Alarms.Add(new AlarmsViewModel { Evento = "Abandono de la región", Placa = "WLR426", Fecha = DateTime.Now, Atendida = "true" });
+            Alarms.Add(new AlarmsViewModel { Evento = "Abandono de la región", Placa = "WLR426", Fecha = DateTime.Now, Atendida = "false" });
+            Alarms.Add(new AlarmsViewModel { Evento = "Abandono de la región", Placa = "WLR426", Fecha = DateTime.Now, Atendida = "false" });
+            Alarms.Add(new AlarmsViewModel { Evento = "Abandono de la región", Placa = "WLR426", Fecha = DateTime.Now, Atendida = "true" });
+            Alarms.Add(new AlarmsViewModel { Evento = "Abandono de la región", Placa = "WLR426", Fecha = DateTime.Now, Atendida = "true" });
+            Alarms.Add(new AlarmsViewModel { Evento = "Abandono de la región", Placa = "WLR426", Fecha = DateTime.Now, Atendida = "false" });
+            Alarms.Add(new AlarmsViewModel { Evento = "Abandono de la región", Placa = "WLR426", Fecha = DateTime.Now, Atendida = "true" });
+            Alarms.Add(new AlarmsViewModel { Evento = "Abandono de la región", Placa = "WLR426", Fecha = DateTime.Now, Atendida = "true" });
+            Alarms.Add(new AlarmsViewModel { Evento = "Abandono de la región", Placa = "WLR426", Fecha = DateTime.Now, Atendida = "true" });
+            Alarms.Add(new AlarmsViewModel { Evento = "Abandono de la región", Placa = "WLR426", Fecha = DateTime.Now, Atendida = "true" });
+            Alarms.Add(new AlarmsViewModel { Evento = "Abandono de la región", Placa = "WLR426", Fecha = DateTime.Now, Atendida = "true" });
+            Alarms.Add(new AlarmsViewModel { Evento = "Abandono de la región", Placa = "WLR426", Fecha = DateTime.Now, Atendida = "true" });
+            Alarms.Add(new AlarmsViewModel { Evento = "Abandono de la región", Placa = "WLR426", Fecha = DateTime.Now, Atendida = "true" });
+        }
     }
 }

@@ -17,12 +17,12 @@ namespace AppSatrack.Cross.Views {
     public partial class MainPage : global::Xamarin.Forms.ContentPage {
         
         [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
-        private global::Xamarin.Forms.Button btn1;
+        private global::Xamarin.Forms.ListView lstAlarms;
         
         [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private void InitializeComponent() {
             this.LoadFromXaml(typeof(MainPage));
-            btn1 = this.FindByName<global::Xamarin.Forms.Button>("btn1");
+            lstAlarms = this.FindByName<global::Xamarin.Forms.ListView>("lstAlarms");
         }
     }
 }

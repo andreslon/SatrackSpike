@@ -1,9 +1,55 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="AppSatrack.Cross.Views.MainPage" Title="">
+             x:Class="AppSatrack.Cross.Views.MainPage" Title=""  >
+
+  <Grid>
+    <ListView x:Name="lstAlarms" HasUnevenRows="True" >
+      <ListView.ItemTemplate>
+        <DataTemplate>
+          <ViewCell >
+
+            <Grid BackgroundColor="White" >
+
+              <Grid.GestureRecognizers>
+                <TapGestureRecognizer Command="{Binding SelectAlarmCommand}" />
+              </Grid.GestureRecognizers>
+
+              <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="80" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="100" />
+              </Grid.ColumnDefinitions>
 
 
-  <Button x:Name="btn1"></Button>
-  
+              <Grid Grid.Column="0">
+                <Label  BackgroundColor="{Binding _Atendida,Converter={StaticResource AttendToColorConverter}}" Text="{Binding Atendida}"></Label>
+              </Grid>
+              <Grid Grid.Column="1">
+                <StackLayout>
+                  <Label   Text="{Binding Evento}"></Label>
+                  <Label   Text="{Binding Placa}"></Label>
+                </StackLayout>
+              </Grid>
+              <Grid Grid.Column="2">
+                <Label Text="{Binding Fecha}"></Label>
+              </Grid>
+            </Grid>
+            <!--<StackLayout BackgroundColor="White"  HeightRequest="40" Padding="15,10"  Orientation="Vertical">
+              <StackLayout Orientation="Horizontal">
+                <Image Source="{Binding image}" />
+                <Label Text="{Binding title}" FontSize="20"
+                TextColor="{StaticResource  LightColor}" />
+
+              </StackLayout>
+            </StackLayout>-->
+          </ViewCell>
+        </DataTemplate>
+      </ListView.ItemTemplate>
+    </ListView>
+
+  </Grid>
+
+
+
 </ContentPage>

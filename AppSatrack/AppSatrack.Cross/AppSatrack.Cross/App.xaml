@@ -1,10 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Application xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:converters="clr-namespace:AppSatrack.Cross.Converters;assembly=AppSatrack.Cross"
              x:Class="AppSatrack.Cross.App">
 
   <Application.Resources>
     <ResourceDictionary>
+
+      <converters:AttendToColorConverter x:Key="AttendToColorConverter"></converters:AttendToColorConverter>
 
       <Color x:Key="BackgroundColor">#f2f2f2</Color>
       <Color x:Key="MenuBackgroundColor">#2c3e50</Color>
@@ -12,6 +15,9 @@
       <Color x:Key="PrimaryDarkColor">#2980b9</Color>
       <Color x:Key="FontColor">#808080</Color>
       <Color x:Key="LightColor">#fcfcfc</Color>
+
+      <Color x:Key="AtendidaColor">#2980b9</Color>
+      <Color x:Key="NoAtendidaColor">#f1c40f</Color>
       <!--<x:Double x:Key="paddingmenu">20</x:Double>
       <x:String></x:String>
       <Onplatform x:TypeArguments="Double" x:Key="letramenu" Android="20" iOS="20" WinPhone="30"  ></Onplatform>-->

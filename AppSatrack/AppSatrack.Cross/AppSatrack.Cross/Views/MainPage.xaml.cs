@@ -1,4 +1,5 @@
-﻿using System;
+﻿using AppSatrack.Logic.ViewModels;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -13,12 +14,9 @@ namespace AppSatrack.Cross.Views
         public MainPage()
         {
             InitializeComponent();
-            btn1.Clicked += Btn1_Clicked;
+            this.BindingContext = new MainViewModel();
+            lstAlarms.ItemsSource = ((MainViewModel)this.BindingContext).Alarms;
         }
 
-        private void Btn1_Clicked(object sender, EventArgs e)
-        {
-            //Llmar un progress
-        }
     }
 }
