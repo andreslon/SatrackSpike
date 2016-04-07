@@ -5,7 +5,7 @@
              Title="spike" BackgroundColor="{StaticResource MeneBackgroundColor}"
              Icon="ic_menu_white_48dp.png">
   <Grid>
-    <ListView  x:Name="listView" HasUnevenRows="False">
+    <ListView  x:Name="listView" HasUnevenRows="True">
       <ListView.Header>
         <StackLayout BackgroundColor="{StaticResource PrimaryColor}" Padding="20" HeightRequest="150">
           <Image Source="icon.png"></Image>
@@ -17,7 +17,7 @@
         <DataTemplate>
           <ViewCell>
             <StackLayout 
-            Orientation="Vertical">
+            Orientation="Vertical" Padding="15,5">
               <StackLayout Orientation="Horizontal">
                 <Image Source="{Binding image}" />
                 <Label Text="{Binding title}"
