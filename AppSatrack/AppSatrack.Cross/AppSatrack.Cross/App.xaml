@@ -2,5 +2,22 @@
 <Application xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="AppSatrack.Cross.App">
-  <Label Text="{Binding MainText}" VerticalOptions="Center" HorizontalOptions="Center" />
+
+  <Application.Resources>
+    <ResourceDictionary>
+
+      <Color x:Key="BackgroundColor">#f2f2f2</Color>
+      <Color x:Key="MenuBackgroundColor">#2c3e50</Color>
+      <Color x:Key="PrimaryColor">#43a0de</Color>
+      <Color x:Key="PrimaryDarkColor">#2980b9</Color>
+      <Color x:Key="FontColor">#808080</Color>
+      <Color x:Key="LightColor">#fcfcfc</Color>
+      <!--<x:Double x:Key="paddingmenu">20</x:Double>
+      <x:String></x:String>
+      <Onplatform x:TypeArguments="Double" x:Key="letramenu" Android="20" iOS="20" WinPhone="30"  ></Onplatform>-->
+
+
+
+    </ResourceDictionary>
+  </Application.Resources>
 </Application>
