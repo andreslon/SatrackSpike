@@ -18,7 +18,7 @@ namespace AppSatrack.Cross.Converters
             }
             else
             {
-                return App.Current.Resources["AlarmaNOtendida"];
+                return App.Current.Resources["AlarmaNOAtendida"];
             }
         }
 

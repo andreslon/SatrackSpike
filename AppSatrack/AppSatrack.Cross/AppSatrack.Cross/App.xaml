@@ -15,10 +15,10 @@
       
       <Color x:Key="PrimaryDarkColor">#2980b9</Color>
       <Color x:Key="FontColor">#808080</Color>
-      <Color x:Key="MeneBackgroundColor">#2c3e50</Color>      
+      <Color x:Key="MenuBackgroundColor">#2c3e50</Color>      
       <Color x:Key="FontLigthColor">#ecf0f1</Color>
       <x:Double x:Key="PaddingMenu">15.5</x:Double>
-      <x:String x:Key="AppName">Test Xamarin Fomrs</x:String>
+      <x:String x:Key="AppName">Test Xamarin Forms</x:String>
       <OnPlatform x:TypeArguments="Thickness" x:Key="example"
                 iOS="0, 20, 0, 0"
                 Android="0, 0, 0, 0"

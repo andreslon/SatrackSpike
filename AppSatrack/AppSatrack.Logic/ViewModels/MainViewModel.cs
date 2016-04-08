@@ -30,12 +30,12 @@ namespace AppSatrack.Logic.ViewModels
             listAlarma.Add(new AlarmaViewModel { Atendida = true, Fecha = DateTime.Now, Placa = "PLACA3", TipoEvento = "Botón de Pánico" });
             listAlarma.Add(new AlarmaViewModel { Atendida = false, Fecha = DateTime.Now, Placa = "PLACA4", TipoEvento = "Botón de Pánico" });
             listAlarma.Add(new AlarmaViewModel { Atendida = true, Fecha = DateTime.Now, Placa = "PLACA5", TipoEvento = "Botón de Pánico" });
-            listAlarma.Add(new AlarmaViewModel { Atendida = false, Fecha = DateTime.Now, Placa = "PLACA6", TipoEvento = "Botón de Pánico" });
+            listAlarma.Add(new AlarmaViewModel { Atendida = true, Fecha = DateTime.Now, Placa = "PLACA6", TipoEvento = "Botón de Pánico" });
             listAlarma.Add(new AlarmaViewModel { Atendida = true, Fecha = DateTime.Now, Placa = "PLACA7", TipoEvento = "Ingreso a Región" });
             listAlarma.Add(new AlarmaViewModel { Atendida = false, Fecha = DateTime.Now, Placa = "PLACA8", TipoEvento = "Botón de Pánico" });
             listAlarma.Add(new AlarmaViewModel { Atendida = true, Fecha = DateTime.Now, Placa = "PLACA9", TipoEvento = "Botón de Pánico" });
             listAlarma.Add(new AlarmaViewModel { Atendida = false, Fecha = DateTime.Now, Placa = "PLACA10", TipoEvento = "Botón de Pánico" });
-            listAlarma.Add(new AlarmaViewModel { Atendida = true, Fecha = DateTime.Now, Placa = "PLACA11", TipoEvento = "Botón de Pánico" });
+            listAlarma.Add(new AlarmaViewModel { Atendida = false, Fecha = DateTime.Now, Placa = "PLACA11", TipoEvento = "Botón de Pánico" });
             listAlarma.Add(new AlarmaViewModel { Atendida = false, Fecha = DateTime.Now, Placa = "PLACA12", TipoEvento = "Botón de Pánico" });
             listAlarma.Add(new AlarmaViewModel { Atendida = true, Fecha = DateTime.Now, Placa = "PLACA13", TipoEvento = "Botón de Pánico" });
             listAlarma.Add(new AlarmaViewModel { Atendida = false, Fecha = DateTime.Now, Placa = "PLACA14", TipoEvento = "Botón de Pánico" });

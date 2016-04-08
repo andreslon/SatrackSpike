@@ -33,6 +33,7 @@ namespace AppSatrack.Cross
             {
                 BarTextColor = Color.Green,
                 Icon = "icon.png",
+                BarBackgroundColor = (Color)App.Current.Resources["PrimaryColor"]
             };
             //NavigationPage.SetBackButtonTitle(page, "Atrás");
             NavigationPage.SetTitleIcon(page, "icon.png");

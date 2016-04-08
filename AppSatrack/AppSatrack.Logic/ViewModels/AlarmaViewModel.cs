@@ -29,7 +29,7 @@ namespace AppSatrack.Logic.ViewModels
 
         private void Select()
         {
-           //Aqui iria toda la logica que realiza la accion. Por ejemplo: Ir al detalle de la alarma.
+           //Aqui iría toda la logica que realiza la accion. Por ejemplo: Ir al detalle de la alarma.
         }
     }
 }

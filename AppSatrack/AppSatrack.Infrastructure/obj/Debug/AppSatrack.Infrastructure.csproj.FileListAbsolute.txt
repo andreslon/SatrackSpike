@@ -1,0 +1,4 @@
+E:\Spike\AppSatrack\AppSatrack.Infrastructure\bin\Debug\AppSatrack.Infrastructure.dll
+E:\Spike\AppSatrack\AppSatrack.Infrastructure\bin\Debug\AppSatrack.Infrastructure.pdb
+E:\Spike\AppSatrack\AppSatrack.Infrastructure\obj\Debug\AppSatrack.Infrastructure.dll
+E:\Spike\AppSatrack\AppSatrack.Infrastructure\obj\Debug\AppSatrack.Infrastructure.pdb
