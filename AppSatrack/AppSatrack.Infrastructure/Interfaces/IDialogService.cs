@@ -8,5 +8,6 @@ namespace AppSatrack.Infrastructure.Interfaces
 {
     public interface IDialogService
     {
+        void MostrarMensaje(string Mensaje);
     }
 }

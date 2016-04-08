@@ -42,3 +42,5 @@ E:\Spike\AppSatrack\AppSatrack.Cross\AppSatrack.Cross\bin\Debug\AppSatrack.Infra
 E:\Spike\AppSatrack\AppSatrack.Cross\AppSatrack.Cross\bin\Debug\AppSatrack.Infrastructure.pdb
 E:\Spike\AppSatrack\AppSatrack.Cross\AppSatrack.Cross\obj\Debug\AppSatrack.Cross.dll.mdb
 E:\Spike\AppSatrack\AppSatrack.Cross\AppSatrack.Cross\bin\Debug\AppSatrack.Cross.dll.mdb
+E:\Spike\AppSatrack\AppSatrack.Cross\AppSatrack.Cross\obj\Debug\AppSatrack.Cross.dll.mdb
+E:\Spike\AppSatrack\AppSatrack.Cross\AppSatrack.Cross\bin\Debug\AppSatrack.Cross.dll.mdb

@@ -7,5 +7,9 @@ namespace AppSatrack.Cross.iOS.Services
 {
     public class DialogService : IDialogService
     {
+        public void MostrarMensaje(string Mensaje)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

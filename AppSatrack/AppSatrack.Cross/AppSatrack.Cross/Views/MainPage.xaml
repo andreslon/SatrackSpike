@@ -14,11 +14,11 @@
                 <TapGestureRecognizer Command="{Binding SelectAlarmCommand}" />
               </Grid.GestureRecognizers>
 
-              <ColumnDefinition>
+              <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="80"/>
                 <ColumnDefinition Width="*"/>
                 <ColumnDefinition Width="100"/>
-              </ColumnDefinition>
+              </Grid.ColumnDefinitions>
 
               <Grid Grid.Column="0">
                 <Label BackgroundColor="{Binding Atendida, Converter={StaticResource AtendidaToColorConverter}}" Text="{Binding Atendida}"></Label>
