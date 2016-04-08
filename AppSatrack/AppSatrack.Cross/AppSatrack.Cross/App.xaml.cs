@@ -14,8 +14,7 @@ namespace AppSatrack.Cross
     {
         MasterDetailPage master = new MasterPage();
         private MasterDetailPage masterDetailPage;
-        private NavigationPage navigationPage;
-
+        public static NavigationPage navigationPage;
         public App()
         {
             InitializeComponent();

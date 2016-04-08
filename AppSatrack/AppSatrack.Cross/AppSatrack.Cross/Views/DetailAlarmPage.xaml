@@ -3,24 +3,62 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="AppSatrack.Cross.Views.DetailAlarmPage">
 
-  <Grid BackgroundColor="#34495e">
-    <ScrollView>
-      <Grid Grid.Row="0">
+  <Grid >
+    <ScrollView >
+      <Grid RowSpacing="0">
+        <Grid.RowDefinitions>
+          <RowDefinition Height="Auto" />
+          <RowDefinition Height="Auto" />
+          <RowDefinition Height="Auto" />
+          <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="0" ColumnSpacing="0">
+          <Grid.ColumnDefinitions>
+            <ColumnDefinition  Width="*"/>
+            <ColumnDefinition  Width="*"/>
+          </Grid.ColumnDefinitions>
 
-      </Grid>
+          <Grid BackgroundColor="Yellow" Grid.Column="0">
+            <StackLayout>
+              <Label Text="Abandono de la region"></Label>
+              <Label Text="Placa: SLI192"></Label>
+            </StackLayout>
+          </Grid>
+          <Grid BackgroundColor="White" Grid.Column="1">
+            <StackLayout>
+              <Label Text="Abandono de la region"></Label>
+              <Label Text="Placa: SLI192"></Label>
+            </StackLayout>
+          </Grid>
+        </Grid>
+        <Grid BackgroundColor="Gray" Grid.Row="1">
+          <StackLayout>
+            <Label Text="Abandono de la region"></Label>
+            <Label Text="Placa: SLI192"></Label>
+          </StackLayout>
+          <Grid HorizontalOptions="End" Padding="5">
+            <Image Source="icon.png" ></Image>
+          </Grid>
 
-      <Grid Grid.Row="1">
-      </Grid>
+        </Grid>
+        <Grid BackgroundColor="White" Grid.Row="2">
+          <StackLayout>
+            <Label Text="Abandono de la region"></Label>
+            <Label Text="Placa: SLI192"></Label>
+          </StackLayout>
+        </Grid>
+        <Grid   Grid.Row="3" ColumnSpacing="2">
+          <Grid.ColumnDefinitions>
+            <ColumnDefinition  Width="*"/>
+            <ColumnDefinition  Width="*"/>
+            <ColumnDefinition  Width="*"/>
+          </Grid.ColumnDefinitions>
 
-      <Grid Grid.Row="2">
-      </Grid>
-
-      <Grid Grid.Row="3">
-      </Grid>
-
-      <Grid Grid.Row="4">
+          <Button Grid.Column="0" Text="Atender" BackgroundColor="Blue" BorderRadius="0" TextColor="White"></Button>
+          <Button Grid.Column="1" Text="Llamar al conductor" BackgroundColor="Blue" BorderRadius="0" TextColor="White"></Button>
+          <Button Grid.Column="2" Text="Llamar a satrack"  BackgroundColor="Blue" BorderRadius="0" TextColor="White"></Button>
+        </Grid>
       </Grid>
     </ScrollView>
   </Grid>
-
 </ContentPage>

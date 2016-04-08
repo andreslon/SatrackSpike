@@ -79,6 +79,5 @@ E:\Spike\AppSatrack\AppSatrack.Cross\AppSatrack.Cross.Droid\obj\Debug\uploadflag
 E:\Spike\AppSatrack\AppSatrack.Cross\AppSatrack.Cross.Droid\bin\Debug\GalaSoft.MvvmLight.dll
 E:\Spike\AppSatrack\AppSatrack.Cross\AppSatrack.Cross.Droid\bin\Debug\GalaSoft.MvvmLight.pdb
 E:\Spike\AppSatrack\AppSatrack.Cross\AppSatrack.Cross.Droid\bin\Debug\GalaSoft.MvvmLight.xml
-E:\Spike\AppSatrack\AppSatrack.Cross\AppSatrack.Cross.Droid\bin\Debug\AppSatrack.Cross.dll.mdb
 E:\Spike\AppSatrack\AppSatrack.Cross\AppSatrack.Cross.Droid\obj\Debug\AppSatrack.Cross.Droid.dll.mdb
 E:\Spike\AppSatrack\AppSatrack.Cross\AppSatrack.Cross.Droid\bin\Debug\AppSatrack.Cross.Droid.dll.mdb

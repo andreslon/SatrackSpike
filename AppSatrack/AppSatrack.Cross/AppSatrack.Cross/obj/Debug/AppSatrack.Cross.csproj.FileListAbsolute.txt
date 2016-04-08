@@ -37,6 +37,6 @@ E:\Spike\AppSatrack\AppSatrack.Cross\AppSatrack.Cross\obj\Debug\AppSatrack.Cross
 E:\Spike\AppSatrack\AppSatrack.Cross\AppSatrack.Cross\bin\Debug\GalaSoft.MvvmLight.dll
 E:\Spike\AppSatrack\AppSatrack.Cross\AppSatrack.Cross\bin\Debug\GalaSoft.MvvmLight.pdb
 E:\Spike\AppSatrack\AppSatrack.Cross\AppSatrack.Cross\bin\Debug\GalaSoft.MvvmLight.xml
+E:\Spike\AppSatrack\AppSatrack.Cross\AppSatrack.Cross\obj\Debug\AppSatrack.Cross.Views.DetailAlarmPage.xaml.g.cs
 E:\Spike\AppSatrack\AppSatrack.Cross\AppSatrack.Cross\obj\Debug\AppSatrack.Cross.dll.mdb
 E:\Spike\AppSatrack\AppSatrack.Cross\AppSatrack.Cross\bin\Debug\AppSatrack.Cross.dll.mdb
-E:\Spike\AppSatrack\AppSatrack.Cross\AppSatrack.Cross\obj\Debug\AppSatrack.Cross.Views.DetailAlarmPage.xaml.g.cs
