@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             BindingContext="{Binding Main, Source={StaticResource Locator}}"
              x:Class="AppSatrack.Cross.Views.DetailAlarmPage">
 
   <Grid >
@@ -20,21 +21,21 @@
 
           <Grid BackgroundColor="Yellow" Grid.Column="0">
             <StackLayout>
-              <Label Text="Abandono de la region"></Label>
-              <Label Text="Placa: SLI192"></Label>
+              <Label Text="{Binding SelectedAlarm.TipoEvento}"></Label>
+              <Label Text="{Binding SelectedAlarm.Placa, StringFormat='Placa: {0}'}"></Label>
             </StackLayout>
           </Grid>
           <Grid BackgroundColor="White" Grid.Column="1">
             <StackLayout>
-              <Label Text="Abandono de la region"></Label>
-              <Label Text="Placa: SLI192"></Label>
+              <Label Text="{Binding SelectedAlarm.TipoEvento}"></Label>
+              <Label Text="{Binding SelectedAlarm.Placa, StringFormat='Placa: {0}'}"></Label>
             </StackLayout>
           </Grid>
         </Grid>
         <Grid BackgroundColor="Gray" Grid.Row="1">
           <StackLayout>
-            <Label Text="Abandono de la region"></Label>
-            <Label Text="Placa: SLI192"></Label>
+            <Label Text="{Binding SelectedAlarm.TipoEvento}"></Label>
+            <Label Text="{Binding SelectedAlarm.Placa, StringFormat='Placa: {0}'}"></Label>
           </StackLayout>
           <Grid HorizontalOptions="End" Padding="5">
             <Image Source="icon.png" ></Image>
@@ -43,8 +44,8 @@
         </Grid>
         <Grid BackgroundColor="White" Grid.Row="2">
           <StackLayout>
-            <Label Text="Abandono de la region"></Label>
-            <Label Text="Placa: SLI192"></Label>
+            <Label Text="{Binding SelectedAlarm.TipoEvento}"></Label>
+            <Label Text="{Binding SelectedAlarm.Placa, StringFormat='Placa: {0}'}"></Label>
           </StackLayout>
         </Grid>
         <Grid   Grid.Row="3" ColumnSpacing="2">

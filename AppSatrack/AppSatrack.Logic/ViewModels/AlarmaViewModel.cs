@@ -37,6 +37,11 @@ namespace AppSatrack.Logic.ViewModels
 
         private void Select()
         {
+
+            var main = GetInstance<MainViewModel>();
+            
+            //le paso la alarma seleccionada a la variable
+            main.SelectedAlarm = this;
             //Aqui iría toda la logica que realiza la accion. Por ejemplo: Ir al detalle de la alarma.
             navigationService.Navegar(PageTypes.AlarmasDetail);
         }

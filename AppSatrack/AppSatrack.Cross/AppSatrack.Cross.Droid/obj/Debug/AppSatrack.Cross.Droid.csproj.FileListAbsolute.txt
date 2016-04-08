@@ -95,5 +95,6 @@ E:\Spike\AppSatrack\AppSatrack.Cross\AppSatrack.Cross.Droid\obj\Debug\res\values
 E:\Spike\AppSatrack\AppSatrack.Cross\AppSatrack.Cross.Droid\obj\Debug\R.cs.flag
 E:\Spike\AppSatrack\AppSatrack.Cross\AppSatrack.Cross.Droid\obj\Debug\uploadflags.txt
 E:\Spike\AppSatrack\AppSatrack.Cross\AppSatrack.Cross.Droid\bin\Debug\AppSatrack.Infrastructure.dll.mdb
+E:\Spike\AppSatrack\AppSatrack.Cross\AppSatrack.Cross.Droid\bin\Debug\AppSatrack.Cross.dll.mdb
 E:\Spike\AppSatrack\AppSatrack.Cross\AppSatrack.Cross.Droid\obj\Debug\AppSatrack.Cross.Droid.dll.mdb
 E:\Spike\AppSatrack\AppSatrack.Cross\AppSatrack.Cross.Droid\bin\Debug\AppSatrack.Cross.Droid.dll.mdb
