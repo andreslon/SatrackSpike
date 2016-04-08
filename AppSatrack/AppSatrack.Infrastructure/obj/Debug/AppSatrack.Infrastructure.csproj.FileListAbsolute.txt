@@ -2,3 +2,7 @@ E:\Spike\AppSatrack\AppSatrack.Infrastructure\bin\Debug\AppSatrack.Infrastructur
 E:\Spike\AppSatrack\AppSatrack.Infrastructure\bin\Debug\AppSatrack.Infrastructure.pdb
 E:\Spike\AppSatrack\AppSatrack.Infrastructure\obj\Debug\AppSatrack.Infrastructure.dll
 E:\Spike\AppSatrack\AppSatrack.Infrastructure\obj\Debug\AppSatrack.Infrastructure.pdb
+E:\Spike\AppSatrack\AppSatrack.Infrastructure\obj\Debug\AppSatrack.Infrastructure.dll.mdb
+E:\Spike\AppSatrack\AppSatrack.Infrastructure\bin\Debug\AppSatrack.Infrastructure.dll.mdb
+E:\Spike\AppSatrack\AppSatrack.Infrastructure\obj\Debug\AppSatrack.Infrastructure.dll.mdb
+E:\Spike\AppSatrack\AppSatrack.Infrastructure\bin\Debug\AppSatrack.Infrastructure.dll.mdb

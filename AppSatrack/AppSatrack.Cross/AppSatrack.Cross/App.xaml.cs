@@ -20,8 +20,6 @@ namespace AppSatrack.Cross
             InitializeComponent();
             //MainPage = new LoginPage();
 
-
-
             masterDetailPage = new MasterDetailPage()
             {
                 Title = "Master"

@@ -18,5 +18,7 @@ E:\Spike\AppSatrack\AppSatrack.Cross\AppSatrack.Cross.iOS\obj\iPhone\Debug\AppSa
 E:\Spike\AppSatrack\AppSatrack.Cross\AppSatrack.Cross.iOS\bin\iPhone\Debug\GalaSoft.MvvmLight.dll
 E:\Spike\AppSatrack\AppSatrack.Cross\AppSatrack.Cross.iOS\bin\iPhone\Debug\GalaSoft.MvvmLight.pdb
 E:\Spike\AppSatrack\AppSatrack.Cross\AppSatrack.Cross.iOS\bin\iPhone\Debug\GalaSoft.MvvmLight.xml
+E:\Spike\AppSatrack\AppSatrack.Cross\AppSatrack.Cross.iOS\bin\iPhone\Debug\AppSatrack.Infrastructure.dll
+E:\Spike\AppSatrack\AppSatrack.Cross\AppSatrack.Cross.iOS\bin\iPhone\Debug\AppSatrack.Infrastructure.pdb
 E:\Spike\AppSatrack\AppSatrack.Cross\AppSatrack.Cross.iOS\obj\iPhone\Debug\AppSatrackCrossiOS.exe.mdb
 E:\Spike\AppSatrack\AppSatrack.Cross\AppSatrack.Cross.iOS\bin\iPhone\Debug\AppSatrackCrossiOS.exe.mdb

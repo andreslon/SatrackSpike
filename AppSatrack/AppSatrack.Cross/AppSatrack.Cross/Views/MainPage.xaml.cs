@@ -18,7 +18,8 @@ namespace AppSatrack.Cross.Views
             this.BindingContext = new MainViewModel();
             listViewAlarma.ItemsSource = ((MainViewModel)this.BindingContext).listAlarma;
 
-            listViewAlarma.ItemSelected += ListViewAlarma_ItemSelected;
+            //Ejemplo de llamado a otro Page, pero para esta arquitectura se va a utilizar ICommand e Inyección de Dependencias
+            //listViewAlarma.ItemSelected += ListViewAlarma_ItemSelected;
         }
 
         async void ListViewAlarma_ItemSelected(object sender, SelectedItemChangedEventArgs e)

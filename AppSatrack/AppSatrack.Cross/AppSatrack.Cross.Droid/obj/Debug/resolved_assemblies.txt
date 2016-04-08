@@ -1,5 +1,6 @@
 E:\Spike\AppSatrack\AppSatrack.Cross\AppSatrack.Cross.Droid\obj\Debug\android\assets\AppSatrack.Cross.Droid.dll
 E:\Spike\AppSatrack\AppSatrack.Cross\AppSatrack.Cross.Droid\obj\Debug\android\assets\AppSatrack.Cross.dll
+E:\Spike\AppSatrack\AppSatrack.Cross\AppSatrack.Cross.Droid\obj\Debug\android\assets\AppSatrack.Infrastructure.dll
 E:\Spike\AppSatrack\AppSatrack.Cross\AppSatrack.Cross.Droid\obj\Debug\android\assets\FormsViewGroup.dll
 E:\Spike\AppSatrack\AppSatrack.Cross\AppSatrack.Cross.Droid\obj\Debug\android\assets\Mono.Android.dll
 E:\Spike\AppSatrack\AppSatrack.Cross\AppSatrack.Cross.Droid\obj\Debug\android\assets\mscorlib.dll

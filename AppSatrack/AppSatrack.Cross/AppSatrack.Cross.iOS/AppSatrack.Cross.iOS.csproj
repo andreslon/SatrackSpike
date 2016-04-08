@@ -90,6 +90,7 @@
   <ItemGroup>
     <Compile Include="Main.cs" />
     <Compile Include="AppDelegate.cs" />
+    <Compile Include="Services\DialogService.cs" />
     <None Include="Entitlements.plist" />
     <None Include="Info.plist" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -98,6 +99,10 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\AppSatrack.Infrastructure\AppSatrack.Infrastructure.csproj">
+      <Project>{3969e2e4-cc93-439f-82ad-42e131332d7b}</Project>
+      <Name>AppSatrack.Infrastructure</Name>
+    </ProjectReference>
     <ProjectReference Include="..\AppSatrack.Cross\AppSatrack.Cross.csproj">
       <Name>AppSatrack.Cross</Name>
     </ProjectReference>

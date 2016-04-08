@@ -81,6 +81,7 @@ class MonoPackageManager_Resources {
 	public static final String[] Assemblies = new String[]{
 		"AppSatrack.Cross.Droid.dll",
 		"AppSatrack.Cross.dll",
+		"AppSatrack.Infrastructure.dll",
 		"FormsViewGroup.dll",
 		"Xamarin.Android.Support.Design.dll",
 		"Xamarin.Android.Support.v4.dll",

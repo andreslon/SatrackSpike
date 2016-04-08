@@ -21,5 +21,3 @@ E:\Spike\AppSatrack\AppSatrack.Logic\obj\Debug\AppSatrack.Logic.dll.mdb
 E:\Spike\AppSatrack\AppSatrack.Logic\bin\Debug\AppSatrack.Logic.dll.mdb
 E:\Spike\AppSatrack\AppSatrack.Logic\obj\Debug\AppSatrack.Logic.dll.mdb
 E:\Spike\AppSatrack\AppSatrack.Logic\bin\Debug\AppSatrack.Logic.dll.mdb
-E:\Spike\AppSatrack\AppSatrack.Logic\obj\Debug\AppSatrack.Logic.dll.mdb
-E:\Spike\AppSatrack\AppSatrack.Logic\bin\Debug\AppSatrack.Logic.dll.mdb
