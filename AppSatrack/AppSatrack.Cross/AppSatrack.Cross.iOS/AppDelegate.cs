@@ -4,6 +4,7 @@ using System.Linq;
 
 using Foundation;
 using UIKit;
+using AppSatrack.Cross.Services;
 
 namespace AppSatrack.Cross.iOS
 {
@@ -23,6 +24,7 @@ namespace AppSatrack.Cross.iOS
         public override bool FinishedLaunching(UIApplication app, NSDictionary options)
         {
             global::Xamarin.Forms.Forms.Init();
+            App.DependencyContainerService = new DependencyContainerService();
             LoadApplication(new App());
 
             return base.FinishedLaunching(app, options);

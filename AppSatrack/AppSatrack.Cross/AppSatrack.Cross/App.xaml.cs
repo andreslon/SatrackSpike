@@ -1,5 +1,7 @@
-﻿using AppSatrack.Cross.Views;
+﻿using AppSatrack.Cross.Services;
+using AppSatrack.Cross.Views;
 using AppSatrack.Cross.Views.Base;
+using AppSatrack.Infraestructure.Contracts;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -14,24 +16,26 @@ namespace AppSatrack.Cross
     {
         MasterDetailPage master = new MasterPage();
         private MasterDetailPage masterDetailPage;
-        private NavigationPage navigationPage;
+        public static NavigationPage navigationPage;
+        public static IDependencyContainerService DependencyContainerService { get; set; }
 
         public App()
         {
             InitializeComponent();
             //MainPage = new LoginPage();
-
-
-
+             
             masterDetailPage = new MasterDetailPage()
             {
-                Title = "Master"
+                Title = "Master",
+
             };
             var page = new MainPage();
 
             navigationPage = new NavigationPage(page)
             {
-                BarTextColor = Color.Green,
+
+                BarBackgroundColor = (Color)App.Current.Resources["PrimaryColor"],
+                BarTextColor= (Color)App.Current.Resources["FontLigthColor"],
                 Icon = "icon.png",
             };
             //NavigationPage.SetBackButtonTitle(page, "Atrás");

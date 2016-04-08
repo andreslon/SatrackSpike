@@ -1,11 +1,12 @@
-﻿using System;
+﻿using AppSatrack.Infraestructure;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
 namespace AppSatrack.Logic.ViewModels
 {
-    public class MenuViewModel
+    public class MenuViewModel : BindableBase
     {
         public MenuViewModel() {
 

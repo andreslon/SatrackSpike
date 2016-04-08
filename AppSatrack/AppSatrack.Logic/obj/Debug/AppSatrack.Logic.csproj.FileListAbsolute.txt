@@ -3,6 +3,17 @@ D:\REPOSITORY\AppSatrack\AppSatrack.Logic\bin\Debug\AppSatrack.Logic.pdb
 D:\REPOSITORY\AppSatrack\AppSatrack.Logic\obj\Debug\AppSatrack.Logic.dll
 D:\REPOSITORY\AppSatrack\AppSatrack.Logic\obj\Debug\AppSatrack.Logic.pdb
 D:\REPOSITORY\AppSatrack\AppSatrack.Logic\obj\Debug\AppSatrack.Logic.csprojResolveAssemblyReference.cache
+D:\REPOSITORY\AppSatrack\AppSatrack.Logic\bin\Debug\GalaSoft.MvvmLight.dll
+D:\REPOSITORY\AppSatrack\AppSatrack.Logic\bin\Debug\GalaSoft.MvvmLight.Extras.dll
+D:\REPOSITORY\AppSatrack\AppSatrack.Logic\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+D:\REPOSITORY\AppSatrack\AppSatrack.Logic\bin\Debug\GalaSoft.MvvmLight.pdb
+D:\REPOSITORY\AppSatrack\AppSatrack.Logic\bin\Debug\GalaSoft.MvvmLight.xml
+D:\REPOSITORY\AppSatrack\AppSatrack.Logic\bin\Debug\GalaSoft.MvvmLight.Extras.pdb
+D:\REPOSITORY\AppSatrack\AppSatrack.Logic\bin\Debug\GalaSoft.MvvmLight.Extras.xml
+D:\REPOSITORY\AppSatrack\AppSatrack.Logic\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+D:\REPOSITORY\AppSatrack\AppSatrack.Logic\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+D:\REPOSITORY\AppSatrack\AppSatrack.Logic\bin\Debug\AppSatrack.Infraestructure.dll
+D:\REPOSITORY\AppSatrack\AppSatrack.Logic\bin\Debug\AppSatrack.Infraestructure.pdb
 D:\REPOSITORY\AppSatrack\AppSatrack.Logic\obj\Debug\AppSatrack.Logic.dll.mdb
 D:\REPOSITORY\AppSatrack\AppSatrack.Logic\bin\Debug\AppSatrack.Logic.dll.mdb
 D:\REPOSITORY\AppSatrack\AppSatrack.Logic\obj\Debug\AppSatrack.Logic.dll.mdb

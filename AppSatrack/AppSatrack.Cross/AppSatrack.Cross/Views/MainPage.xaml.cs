@@ -13,9 +13,29 @@ namespace AppSatrack.Cross.Views
     {
         public MainPage()
         {
-            InitializeComponent();
-            this.BindingContext = new MainViewModel();
-            listView.ItemsSource = ((MainViewModel)this.BindingContext).Alarms;
+            InitializeComponent();            
+            //listView.ItemSelected += ListView_ItemSelected;
+        }
+
+        async private void ListView_ItemSelected(object sender, SelectedItemChangedEventArgs e)
+        {
+            
+            AlarmDetailPage page = new AlarmDetailPage();
+            NavigationPage.SetBackButtonTitle(page, "Atras");
+            await App.navigationPage.PushAsync(page);
+
+        }
+
+        //on resume
+        protected override void OnAppearing()
+        {
+            base.OnAppearing();
+        }
+
+        //pause 
+        protected override void OnDisappearing()
+        {
+            base.OnDisappearing();
         }
     }
 }

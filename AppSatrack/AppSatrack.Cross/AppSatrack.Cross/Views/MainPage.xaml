@@ -1,17 +1,20 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="AppSatrack.Cross.Views.MainPage" Title=""
-             
+             x:Class="AppSatrack.Cross.Views.MainPage" Title="Lista de alarmas"
+             BindingContext="{Binding Main, Source={StaticResource Locator}}"
              >
 
   <Grid >
-    <ListView  x:Name="listView" HasUnevenRows="True">   
+    <ListView  x:Name="listView" HasUnevenRows="True" ItemsSource="{Binding Alarms}">   
 
       <ListView.ItemTemplate>
         <DataTemplate>
           <ViewCell>
             <Grid>
+              <Grid.GestureRecognizers>
+                <TapGestureRecognizer Command="{Binding SelectAlarmCommand}" ></TapGestureRecognizer>
+              </Grid.GestureRecognizers>
               <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="80"></ColumnDefinition>
                 <ColumnDefinition Width="*"></ColumnDefinition> 

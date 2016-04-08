@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppSatrack.Cross.Views.AlarmDetailPage"
+             BindingContext="{Binding Main, Source={StaticResource Locator}}"
+             Title="Alarma">
+  <Label Text="{Binding MainText}" VerticalOptions="Center" HorizontalOptions="Center" />
+
+  <Grid >
+    <ScrollView >
+      <Grid RowSpacing="0">
+        <Grid.RowDefinitions>
+          <RowDefinition Height="Auto" />
+          <RowDefinition Height="Auto" />
+          <RowDefinition Height="Auto" />
+          <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+        <Grid   Grid.Row="0" ColumnSpacing="0">
+          <Grid.ColumnDefinitions>
+            <ColumnDefinition  Width="*"/>
+            <ColumnDefinition  Width="*"/>
+          </Grid.ColumnDefinitions>
+
+          <Grid BackgroundColor="Yellow" Grid.Column="0">
+            <StackLayout>
+              <Label Text="{Binding selectAlarm.TypeEvent}"></Label>
+              <Label Text="{Binding selectAlarm.Vehicle, StringFormat='Placa: {0}'}"></Label>
+            </StackLayout>
+          </Grid>
+          <Grid BackgroundColor="White" Grid.Column="1">
+            <StackLayout>
+              <Label Text="Abandono de la region"></Label>
+              <Label Text="Placa: SLI192"></Label>
+            </StackLayout>
+          </Grid>
+        </Grid>
+        <Grid BackgroundColor="Gray" Grid.Row="1">
+          <StackLayout>
+            <Label Text="Abandono de la region"></Label>
+            <Label Text="Placa: SLI192"></Label>
+          </StackLayout>
+          <Grid HorizontalOptions="End" Padding="5">
+            <Image Source="icon.png" ></Image>
+          </Grid>
+
+        </Grid>
+        <Grid BackgroundColor="White" Grid.Row="2">
+          <StackLayout>
+            <Label Text="Abandono de la region"></Label>
+            <Label Text="Placa: SLI192"></Label>
+          </StackLayout>
+        </Grid>
+        <Grid   Grid.Row="3" ColumnSpacing="2">
+          <Grid.ColumnDefinitions>
+            <ColumnDefinition  Width="*"/>
+            <ColumnDefinition  Width="*"/>
+            <ColumnDefinition  Width="*"/>
+          </Grid.ColumnDefinitions>  
+            <Button Grid.Column="0"  Text="Atender" Command="{Binding selectAlarm.SelectAttendCommand}" BackgroundColor="Blue" BorderRadius="0" TextColor="White"></Button>
+          
+          <Button Grid.Column="1" Text="Llamar al conductor" BackgroundColor="Blue" BorderRadius="0" TextColor="White"></Button>
+          <Button Grid.Column="2" Text="Llamar a satrack"  BackgroundColor="Blue" BorderRadius="0" TextColor="White"></Button>
+        </Grid>
+      </Grid>
+    </ScrollView>
+
+  </Grid>
+
+</ContentPage>
