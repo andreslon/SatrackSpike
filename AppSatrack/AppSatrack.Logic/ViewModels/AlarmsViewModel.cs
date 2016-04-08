@@ -43,6 +43,10 @@ namespace AppSatrack.Logic.ViewModels
 
         private void Select()
         {
+            var main = GetInstance<MainViewModel>();
+            main.SelectedAlarm = this;
+
+
             navigationService = GetInstance<INavigationService>();
             navigationService.NavigateTo(PageTypes.AlarmDetail);
 

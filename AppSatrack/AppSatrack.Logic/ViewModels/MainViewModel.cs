@@ -11,6 +11,8 @@ namespace AppSatrack.Logic.ViewModels
         public List<MenuViewModel> listmenu { get; set; }
         public List<AlarmsViewModel> Alarms { get; set; }
 
+        public AlarmsViewModel SelectedAlarm { get; set; }
+
         public MainViewModel()
         {
             listmenu = new List<MenuViewModel>();
@@ -19,7 +21,7 @@ namespace AppSatrack.Logic.ViewModels
             listmenu.Add(new MenuViewModel { title = "Noticias", image = "icon.png" });
 
             Alarms = new List<AlarmsViewModel>();
-
+            SelectedAlarm = new AlarmsViewModel();
             GetAlarms();
 
 

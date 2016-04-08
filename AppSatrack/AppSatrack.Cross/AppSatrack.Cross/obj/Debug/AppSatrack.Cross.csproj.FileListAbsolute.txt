@@ -44,3 +44,5 @@ D:\Repos\SatrackSpike\AppSatrack\AppSatrack.Cross\AppSatrack.Cross\bin\Debug\Gal
 D:\Repos\SatrackSpike\AppSatrack\AppSatrack.Cross\AppSatrack.Cross\bin\Debug\GalaSoft.MvvmLight.Extras.xml
 D:\Repos\SatrackSpike\AppSatrack\AppSatrack.Cross\AppSatrack.Cross\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
 D:\Repos\SatrackSpike\AppSatrack\AppSatrack.Cross\AppSatrack.Cross\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+D:\Repos\SatrackSpike\AppSatrack\AppSatrack.Cross\AppSatrack.Cross\obj\Debug\AppSatrack.Cross.dll.mdb
+D:\Repos\SatrackSpike\AppSatrack\AppSatrack.Cross\AppSatrack.Cross\bin\Debug\AppSatrack.Cross.dll.mdb

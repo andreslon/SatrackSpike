@@ -11,3 +11,11 @@ D:\Repos\SatrackSpike\AppSatrack\AppSatrack.Infrastructure\bin\Debug\GalaSoft.Mv
 D:\Repos\SatrackSpike\AppSatrack\AppSatrack.Infrastructure\bin\Debug\GalaSoft.MvvmLight.Extras.xml
 D:\Repos\SatrackSpike\AppSatrack\AppSatrack.Infrastructure\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
 D:\Repos\SatrackSpike\AppSatrack\AppSatrack.Infrastructure\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+D:\Repos\SatrackSpike\AppSatrack\AppSatrack.Infrastructure\obj\Debug\AppSatrack.Infrastructure.dll.mdb
+D:\Repos\SatrackSpike\AppSatrack\AppSatrack.Infrastructure\bin\Debug\AppSatrack.Infrastructure.dll.mdb
+D:\Repos\SatrackSpike\AppSatrack\AppSatrack.Infrastructure\obj\Debug\AppSatrack.Infrastructure.dll.mdb
+D:\Repos\SatrackSpike\AppSatrack\AppSatrack.Infrastructure\bin\Debug\AppSatrack.Infrastructure.dll.mdb
+D:\Repos\SatrackSpike\AppSatrack\AppSatrack.Infrastructure\obj\Debug\AppSatrack.Infrastructure.dll.mdb
+D:\Repos\SatrackSpike\AppSatrack\AppSatrack.Infrastructure\bin\Debug\AppSatrack.Infrastructure.dll.mdb
+D:\Repos\SatrackSpike\AppSatrack\AppSatrack.Infrastructure\obj\Debug\AppSatrack.Infrastructure.dll.mdb
+D:\Repos\SatrackSpike\AppSatrack\AppSatrack.Infrastructure\bin\Debug\AppSatrack.Infrastructure.dll.mdb
