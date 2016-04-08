@@ -14,7 +14,7 @@ namespace AppSatrack.Cross
     {
         MasterDetailPage master = new MasterPage();
         private MasterDetailPage masterDetailPage;
-        private NavigationPage navigationPage;
+        public static NavigationPage navigationPage;
 
         public App()
         {
@@ -23,19 +23,17 @@ namespace AppSatrack.Cross
 
 
 
-            masterDetailPage = new MasterDetailPage()
-            {
-                Title = "Master"
-            };
+            masterDetailPage = new MasterDetailPage();
             var page = new MainPage();
 
             navigationPage = new NavigationPage(page)
             {
-                BarTextColor = Color.Green,
-                Icon = "icon.png",
+                BarBackgroundColor= (Color)App.Current.Resources["PrimaryColor"],
+                BarTextColor = (Color)App.Current.Resources["LightColor"],
+
             };
-            //NavigationPage.SetBackButtonTitle(page, "Atrás");
-            NavigationPage.SetTitleIcon(page, "icon.png");
+            NavigationPage.SetBackButtonTitle(page, "Atrás");
+            //NavigationPage.SetTitleIcon(page, "icon.png");
 
             masterDetailPage.Master = new MenuPage();
             masterDetailPage.Detail = navigationPage;

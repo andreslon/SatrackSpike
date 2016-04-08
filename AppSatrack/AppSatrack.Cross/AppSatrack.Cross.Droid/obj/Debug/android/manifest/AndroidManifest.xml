@@ -5,7 +5,7 @@
   <uses-permission android:name="android.permission.INTERNET" />
   <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
   <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-  <application android:label="aaaa" android:icon="@drawable/icon" android:theme="@style/MyTheme" android:name="android.app.Application" android:allowBackup="true" android:debuggable="true">
+  <application android:label="aaaa" android:icon="@drawable/icon" android:theme="@style/MyTheme" android:name="mono.android.app.Application" android:allowBackup="true" android:debuggable="true">
     <activity android:configChanges="orientation|screenSize" android:icon="@drawable/icon" android:label="AppSatrack.Cross" android:name="md5c228d26a2db0baa10ddfb7c58ab57c4c.MainActivity">
       <intent-filter>
         <action android:name="android.intent.action.MAIN" />

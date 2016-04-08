@@ -16,7 +16,35 @@ namespace AppSatrack.Cross.Views
             InitializeComponent();
             this.BindingContext = new MainViewModel();
             lstAlarms.ItemsSource = ((MainViewModel)this.BindingContext).Alarms;
+
+           // lstAlarms.ItemSelected += LstAlarms_ItemSelected;
+
         }
 
+        protected override void OnAppearing()
+        {
+            base.OnAppearing();
+        }
+        protected override void OnDisappearing()
+        {
+            base.OnDisappearing();
+        }
+        
+
+
+
+
+
+        async private void LstAlarms_ItemSelected(object sender, SelectedItemChangedEventArgs e)
+        {
+
+
+            //if (e.SelectedItem == null) return;
+            //((AlarmsViewModel)e.SelectedItem).SelectAlarmCommand.Execute(null);
+            //lstAlarms.SelectedItem = null;
+ 
+
+         
+        }
     }
 }

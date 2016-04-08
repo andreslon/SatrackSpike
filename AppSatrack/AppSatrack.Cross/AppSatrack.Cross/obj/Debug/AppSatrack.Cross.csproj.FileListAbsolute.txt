@@ -32,9 +32,11 @@ D:\Repos\SatrackSpike\AppSatrack\AppSatrack.Cross\AppSatrack.Cross\obj\Debug\App
 D:\Repos\SatrackSpike\AppSatrack\AppSatrack.Cross\AppSatrack.Cross\obj\Debug\AppSatrack.Cross.pdb
 D:\Repos\SatrackSpike\AppSatrack\AppSatrack.Cross\AppSatrack.Cross\bin\Debug\AppSatrack.Logic.dll
 D:\Repos\SatrackSpike\AppSatrack\AppSatrack.Cross\AppSatrack.Cross\bin\Debug\AppSatrack.Logic.pdb
-D:\Repos\SatrackSpike\AppSatrack\AppSatrack.Cross\AppSatrack.Cross\obj\Debug\AppSatrack.Cross.dll.mdb
-D:\Repos\SatrackSpike\AppSatrack\AppSatrack.Cross\AppSatrack.Cross\bin\Debug\AppSatrack.Cross.dll.mdb
-D:\Repos\SatrackSpike\AppSatrack\AppSatrack.Cross\AppSatrack.Cross\obj\Debug\AppSatrack.Cross.dll.mdb
-D:\Repos\SatrackSpike\AppSatrack\AppSatrack.Cross\AppSatrack.Cross\bin\Debug\AppSatrack.Cross.dll.mdb
+D:\Repos\SatrackSpike\AppSatrack\AppSatrack.Cross\AppSatrack.Cross\bin\Debug\GalaSoft.MvvmLight.dll
+D:\Repos\SatrackSpike\AppSatrack\AppSatrack.Cross\AppSatrack.Cross\bin\Debug\GalaSoft.MvvmLight.pdb
+D:\Repos\SatrackSpike\AppSatrack\AppSatrack.Cross\AppSatrack.Cross\bin\Debug\GalaSoft.MvvmLight.xml
+D:\Repos\SatrackSpike\AppSatrack\AppSatrack.Cross\AppSatrack.Cross\obj\Debug\AppSatrack.Cross.Views.AlarmDetailPage.xaml.g.cs
+D:\Repos\SatrackSpike\AppSatrack\AppSatrack.Cross\AppSatrack.Cross\bin\Debug\AppSatrack.Infrastructure.dll
+D:\Repos\SatrackSpike\AppSatrack\AppSatrack.Cross\AppSatrack.Cross\bin\Debug\AppSatrack.Infrastructure.pdb
 D:\Repos\SatrackSpike\AppSatrack\AppSatrack.Cross\AppSatrack.Cross\obj\Debug\AppSatrack.Cross.dll.mdb
 D:\Repos\SatrackSpike\AppSatrack\AppSatrack.Cross\AppSatrack.Cross\bin\Debug\AppSatrack.Cross.dll.mdb

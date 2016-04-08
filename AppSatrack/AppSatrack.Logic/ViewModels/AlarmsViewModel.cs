@@ -35,6 +35,8 @@ namespace AppSatrack.Logic.ViewModels
 
         private void Select()
         {
+
+
             //
 
 

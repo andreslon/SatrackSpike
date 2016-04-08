@@ -3,22 +3,22 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="AppSatrack.Cross.Views.Base.MenuPage"
              Title="spike" BackgroundColor="{StaticResource MenuBackgroundColor}"
-             Icon="ic_menu_white_48dp.png">
-  <Grid>
-    <ListView x:Name="lstmenu" HasUnevenRows="True" >
+             Icon="ic_menu_white_48pt.png">
+  <Grid >
+    <ListView x:Name="lstmenu" HasUnevenRows="True" BackgroundColor="{StaticResource MenuBackgroundColor}" SeparatorVisibility="None">
       <ListView.Header>
         <StackLayout HeightRequest="150" BackgroundColor="{StaticResource PrimaryColor}" Padding="20">
-          <Image Source="icon.png" HeightRequest="120"></Image>
+          <Image Source="icon.png" HeightRequest="120" WidthRequest="120"></Image>
           <Label Text="Spike Satrack"   TextColor="{StaticResource  LightColor}" ></Label>
         </StackLayout>
       </ListView.Header>
       <ListView.ItemTemplate>
         <DataTemplate>
           <ViewCell >
-            <StackLayout  HeightRequest="40" Padding="15,10"
+            <StackLayout  HeightRequest="40" Padding="15,10" BackgroundColor="{StaticResource MenuBackgroundColor}"
             Orientation="Vertical">
               <StackLayout Orientation="Horizontal">
-                <Image Source="{Binding image}" />
+                <Image Source="{Binding image}" HeightRequest="30" WidthRequest="30" />
                 <Label Text="{Binding title}" FontSize="20"
                 TextColor="{StaticResource  LightColor}" />
 

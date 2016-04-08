@@ -40,6 +40,10 @@
     </Compile>
     <Compile Include="Converters\AttendToColorConverter.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Services\NavigationService.cs" />
+    <Compile Include="Views\AlarmDetailPage.xaml.cs">
+      <DependentUpon>AlarmDetailPage.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Views\Base\MasterPage.xaml.cs">
       <DependentUpon>MasterPage.xaml</DependentUpon>
     </Compile>
@@ -102,11 +106,22 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\AppSatrack.Infrastructure\AppSatrack.Infrastructure.csproj">
+      <Project>{baf64e44-5801-4c9f-8280-afe8be0242d9}</Project>
+      <Name>AppSatrack.Infrastructure</Name>
+    </ProjectReference>
     <ProjectReference Include="..\..\AppSatrack.Logic\AppSatrack.Logic.csproj">
       <Project>{8b0b4e9d-df04-4ee5-8bfb-84514d3e25e1}</Project>
       <Name>AppSatrack.Logic</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Views\AlarmDetailPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
   <Import Project="..\..\packages\Xamarin.Forms.2.0.0.6482\build\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Xamarin.Forms.targets" Condition="Exists('..\..\packages\Xamarin.Forms.2.0.0.6482\build\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Xamarin.Forms.targets')" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
