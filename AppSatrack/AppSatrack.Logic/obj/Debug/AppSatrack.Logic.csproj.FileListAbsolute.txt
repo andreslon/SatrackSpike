@@ -12,5 +12,5 @@ D:\Repos\SatrackSpike\AppSatrack\AppSatrack.Logic\bin\Debug\GalaSoft.MvvmLight.E
 D:\Repos\SatrackSpike\AppSatrack\AppSatrack.Logic\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
 D:\Repos\SatrackSpike\AppSatrack\AppSatrack.Logic\bin\Debug\Microsoft.Practices.ServiceLocation.xml
 D:\Repos\SatrackSpike\AppSatrack\AppSatrack.Logic\obj\Debug\AppSatrack.Logic.csprojResolveAssemblyReference.cache
-D:\Repos\SatrackSpike\AppSatrack\AppSatrack.Logic\obj\Debug\AppSatrack.Logic.dll.mdb
-D:\Repos\SatrackSpike\AppSatrack\AppSatrack.Logic\bin\Debug\AppSatrack.Logic.dll.mdb
+D:\Repos\SatrackSpike\AppSatrack\AppSatrack.Logic\bin\Debug\AppSatrack.Infrastructure.dll
+D:\Repos\SatrackSpike\AppSatrack\AppSatrack.Logic\bin\Debug\AppSatrack.Infrastructure.pdb

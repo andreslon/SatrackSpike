@@ -77,5 +77,16 @@ D:\Repos\SatrackSpike\AppSatrack\AppSatrack.Cross\AppSatrack.Cross.Droid\obj\Deb
 D:\Repos\SatrackSpike\AppSatrack\AppSatrack.Cross\AppSatrack.Cross.Droid\bin\Debug\GalaSoft.MvvmLight.dll
 D:\Repos\SatrackSpike\AppSatrack\AppSatrack.Cross\AppSatrack.Cross.Droid\bin\Debug\GalaSoft.MvvmLight.pdb
 D:\Repos\SatrackSpike\AppSatrack\AppSatrack.Cross\AppSatrack.Cross.Droid\bin\Debug\GalaSoft.MvvmLight.xml
+D:\Repos\SatrackSpike\AppSatrack\AppSatrack.Cross\AppSatrack.Cross.Droid\bin\Debug\AppSatrack.Infrastructure.dll
+D:\Repos\SatrackSpike\AppSatrack\AppSatrack.Cross\AppSatrack.Cross.Droid\bin\Debug\GalaSoft.MvvmLight.Extras.dll
+D:\Repos\SatrackSpike\AppSatrack\AppSatrack.Cross\AppSatrack.Cross.Droid\bin\Debug\GalaSoft.MvvmLight.Platform.dll
+D:\Repos\SatrackSpike\AppSatrack\AppSatrack.Cross\AppSatrack.Cross.Droid\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+D:\Repos\SatrackSpike\AppSatrack\AppSatrack.Cross\AppSatrack.Cross.Droid\bin\Debug\AppSatrack.Infrastructure.pdb
+D:\Repos\SatrackSpike\AppSatrack\AppSatrack.Cross\AppSatrack.Cross.Droid\bin\Debug\GalaSoft.MvvmLight.Extras.pdb
+D:\Repos\SatrackSpike\AppSatrack\AppSatrack.Cross\AppSatrack.Cross.Droid\bin\Debug\GalaSoft.MvvmLight.Extras.xml
+D:\Repos\SatrackSpike\AppSatrack\AppSatrack.Cross\AppSatrack.Cross.Droid\bin\Debug\GalaSoft.MvvmLight.Platform.pdb
+D:\Repos\SatrackSpike\AppSatrack\AppSatrack.Cross\AppSatrack.Cross.Droid\bin\Debug\GalaSoft.MvvmLight.Platform.xml
+D:\Repos\SatrackSpike\AppSatrack\AppSatrack.Cross\AppSatrack.Cross.Droid\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+D:\Repos\SatrackSpike\AppSatrack\AppSatrack.Cross\AppSatrack.Cross.Droid\bin\Debug\Microsoft.Practices.ServiceLocation.xml
 D:\Repos\SatrackSpike\AppSatrack\AppSatrack.Cross\AppSatrack.Cross.Droid\obj\Debug\AppSatrack.Cross.Droid.dll.mdb
 D:\Repos\SatrackSpike\AppSatrack\AppSatrack.Cross\AppSatrack.Cross.Droid\bin\Debug\AppSatrack.Cross.Droid.dll.mdb

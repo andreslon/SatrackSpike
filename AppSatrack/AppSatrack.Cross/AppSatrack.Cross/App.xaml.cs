@@ -1,5 +1,6 @@
 ﻿using AppSatrack.Cross.Views;
 using AppSatrack.Cross.Views.Base;
+using AppSatrack.Infrastructure.Contracts;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -15,7 +16,7 @@ namespace AppSatrack.Cross
         MasterDetailPage master = new MasterPage();
         private MasterDetailPage masterDetailPage;
         public static NavigationPage navigationPage;
-
+        public static IDependencyContainerService DependencyContainerService { get; set; }
         public App()
         {
             InitializeComponent();

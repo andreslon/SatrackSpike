@@ -10,7 +10,7 @@ using Android.Runtime;
 using Android.Views;
 using Android.Widget;
 
-namespace AppSatrack.Cross.Droid.Services
+namespace AppSatrack.Cross.Services
 {
     class DialogService
     {

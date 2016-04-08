@@ -39,5 +39,16 @@ D:\Repos\SatrackSpike\AppSatrack\AppSatrack.Cross\AppSatrack.Cross.iOS\obj\iPhon
 D:\Repos\SatrackSpike\AppSatrack\AppSatrack.Cross\AppSatrack.Cross.iOS\obj\iPhoneSimulator\Debug\optimized\ic_menu_white_48pt_3x.png
 D:\Repos\SatrackSpike\AppSatrack\AppSatrack.Cross\AppSatrack.Cross.iOS\bin\iPhoneSimulator\Debug\AppSatrack.Infrastructure.dll
 D:\Repos\SatrackSpike\AppSatrack\AppSatrack.Cross\AppSatrack.Cross.iOS\bin\iPhoneSimulator\Debug\AppSatrack.Infrastructure.pdb
+D:\Repos\SatrackSpike\AppSatrack\AppSatrack.Cross\AppSatrack.Cross.iOS\bin\iPhoneSimulator\Debug\GalaSoft.MvvmLight.Extras.dll
+D:\Repos\SatrackSpike\AppSatrack\AppSatrack.Cross\AppSatrack.Cross.iOS\bin\iPhoneSimulator\Debug\GalaSoft.MvvmLight.Platform.dll
+D:\Repos\SatrackSpike\AppSatrack\AppSatrack.Cross\AppSatrack.Cross.iOS\bin\iPhoneSimulator\Debug\Microsoft.Practices.ServiceLocation.dll
+D:\Repos\SatrackSpike\AppSatrack\AppSatrack.Cross\AppSatrack.Cross.iOS\bin\iPhoneSimulator\Debug\GalaSoft.MvvmLight.Extras.pdb
+D:\Repos\SatrackSpike\AppSatrack\AppSatrack.Cross\AppSatrack.Cross.iOS\bin\iPhoneSimulator\Debug\GalaSoft.MvvmLight.Extras.xml
+D:\Repos\SatrackSpike\AppSatrack\AppSatrack.Cross\AppSatrack.Cross.iOS\bin\iPhoneSimulator\Debug\GalaSoft.MvvmLight.Platform.xml
+D:\Repos\SatrackSpike\AppSatrack\AppSatrack.Cross\AppSatrack.Cross.iOS\bin\iPhoneSimulator\Debug\Microsoft.Practices.ServiceLocation.pdb
+D:\Repos\SatrackSpike\AppSatrack\AppSatrack.Cross\AppSatrack.Cross.iOS\bin\iPhoneSimulator\Debug\Microsoft.Practices.ServiceLocation.xml
+D:\Repos\SatrackSpike\AppSatrack\AppSatrack.Cross\AppSatrack.Cross.iOS\bin\iPhoneSimulator\Debug\Microsoft.Practices.ServiceLocation.dll.mdb
+D:\Repos\SatrackSpike\AppSatrack\AppSatrack.Cross\AppSatrack.Cross.iOS\bin\iPhoneSimulator\Debug\AppSatrack.Infrastructure.dll.mdb
+D:\Repos\SatrackSpike\AppSatrack\AppSatrack.Cross\AppSatrack.Cross.iOS\bin\iPhoneSimulator\Debug\AppSatrack.Logic.dll.mdb
 D:\Repos\SatrackSpike\AppSatrack\AppSatrack.Cross\AppSatrack.Cross.iOS\obj\iPhoneSimulator\Debug\AppSatrackCrossiOS.exe.mdb
 D:\Repos\SatrackSpike\AppSatrack\AppSatrack.Cross\AppSatrack.Cross.iOS\bin\iPhoneSimulator\Debug\AppSatrackCrossiOS.exe.mdb

@@ -1,6 +1,12 @@
 D:\Repos\SatrackSpike\AppSatrack\AppSatrack.Cross\AppSatrack.Cross.Droid\obj\Debug\android\assets\AppSatrack.Cross.Droid.dll
 D:\Repos\SatrackSpike\AppSatrack\AppSatrack.Cross\AppSatrack.Cross.Droid\obj\Debug\android\assets\AppSatrack.Cross.dll
+D:\Repos\SatrackSpike\AppSatrack\AppSatrack.Cross\AppSatrack.Cross.Droid\obj\Debug\android\assets\AppSatrack.Infrastructure.dll
+D:\Repos\SatrackSpike\AppSatrack\AppSatrack.Cross\AppSatrack.Cross.Droid\obj\Debug\android\assets\AppSatrack.Logic.dll
 D:\Repos\SatrackSpike\AppSatrack\AppSatrack.Cross\AppSatrack.Cross.Droid\obj\Debug\android\assets\FormsViewGroup.dll
+D:\Repos\SatrackSpike\AppSatrack\AppSatrack.Cross\AppSatrack.Cross.Droid\obj\Debug\android\assets\GalaSoft.MvvmLight.dll
+D:\Repos\SatrackSpike\AppSatrack\AppSatrack.Cross\AppSatrack.Cross.Droid\obj\Debug\android\assets\GalaSoft.MvvmLight.Extras.dll
+D:\Repos\SatrackSpike\AppSatrack\AppSatrack.Cross\AppSatrack.Cross.Droid\obj\Debug\android\assets\GalaSoft.MvvmLight.Platform.dll
+D:\Repos\SatrackSpike\AppSatrack\AppSatrack.Cross\AppSatrack.Cross.Droid\obj\Debug\android\assets\Microsoft.Practices.ServiceLocation.dll
 D:\Repos\SatrackSpike\AppSatrack\AppSatrack.Cross\AppSatrack.Cross.Droid\obj\Debug\android\assets\Mono.Android.dll
 D:\Repos\SatrackSpike\AppSatrack\AppSatrack.Cross\AppSatrack.Cross.Droid\obj\Debug\android\assets\mscorlib.dll
 D:\Repos\SatrackSpike\AppSatrack\AppSatrack.Cross\AppSatrack.Cross.Droid\obj\Debug\android\assets\System.Core.dll
@@ -22,8 +28,6 @@ D:\Repos\SatrackSpike\AppSatrack\AppSatrack.Cross\AppSatrack.Cross.Droid\obj\Deb
 D:\Repos\SatrackSpike\AppSatrack\AppSatrack.Cross\AppSatrack.Cross.Droid\obj\Debug\android\assets\System.Reflection.Emit.Lightweight.dll
 D:\Repos\SatrackSpike\AppSatrack\AppSatrack.Cross\AppSatrack.Cross.Droid\obj\Debug\android\assets\System.ServiceModel.Security.dll
 D:\Repos\SatrackSpike\AppSatrack\AppSatrack.Cross\AppSatrack.Cross.Droid\obj\Debug\android\assets\System.Threading.Timer.dll
-D:\Repos\SatrackSpike\AppSatrack\AppSatrack.Cross\AppSatrack.Cross.Droid\obj\Debug\android\assets\AppSatrack.Logic.dll
-D:\Repos\SatrackSpike\AppSatrack\AppSatrack.Cross\AppSatrack.Cross.Droid\obj\Debug\android\assets\GalaSoft.MvvmLight.dll
 D:\Repos\SatrackSpike\AppSatrack\AppSatrack.Cross\AppSatrack.Cross.Droid\obj\Debug\android\assets\System.Runtime.Serialization.dll
 D:\Repos\SatrackSpike\AppSatrack\AppSatrack.Cross\AppSatrack.Cross.Droid\obj\Debug\android\assets\System.ServiceModel.Internals.dll
 D:\Repos\SatrackSpike\AppSatrack\AppSatrack.Cross\AppSatrack.Cross.Droid\obj\Debug\android\assets\System.Net.Http.dll

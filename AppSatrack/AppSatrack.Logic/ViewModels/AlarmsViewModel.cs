@@ -1,4 +1,7 @@
-﻿using GalaSoft.MvvmLight;
+﻿using AppSatrack.Infrastructure;
+using AppSatrack.Infrastructure.Contracts;
+using AppSatrack.Infrastructure.Enumerations;
+using GalaSoft.MvvmLight;
 using GalaSoft.MvvmLight.Command;
 using System;
 using System.Collections.Generic;
@@ -9,8 +12,16 @@ using System.Windows.Input;
 
 namespace AppSatrack.Logic.ViewModels
 {
-    public class AlarmsViewModel : ViewModelBase
+    public class AlarmsViewModel : BindableBase
     {
+        public INavigationService navigationService;
+        public AlarmsViewModel()
+        {
+           // navigationService = GetInstance<INavigationService>();
+        }
+
+
+
         public string Evento { get; set; }
         public string Placa { get; set; }
         public DateTime Fecha { get; set; }
@@ -26,24 +37,14 @@ namespace AppSatrack.Logic.ViewModels
             }
         }
 
-        public AlarmsViewModel()
-        {
 
-        }
 
         public ICommand SelectAlarmCommand { get { return new RelayCommand(Select); } }
 
         private void Select()
         {
-
-
-            //
-
-
-            //Progress
-
-
-
+            navigationService = GetInstance<INavigationService>();
+            navigationService.NavigateTo(PageTypes.AlarmDetail);
 
         }
     }

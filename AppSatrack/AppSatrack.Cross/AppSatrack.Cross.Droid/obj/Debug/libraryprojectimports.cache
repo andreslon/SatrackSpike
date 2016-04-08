@@ -2,15 +2,18 @@
 <Paths>
   <Jars></Jars>
   <ResolvedResourceDirectories>
+    <ResolvedResourceDirectory>D:\Repos\SatrackSpike\AppSatrack\AppSatrack.Cross\AppSatrack.Cross.Droid\obj\Debug\__library_projects__\GalaSoft.MvvmLight.Platform\library_project_imports\res</ResolvedResourceDirectory>
     <ResolvedResourceDirectory>D:\Repos\SatrackSpike\AppSatrack\AppSatrack.Cross\AppSatrack.Cross.Droid\obj\Debug\__library_projects__\Xamarin.Forms.Platform.Android\library_project_imports\res</ResolvedResourceDirectory>
     <ResolvedResourceDirectory>D:\Repos\SatrackSpike\AppSatrack\AppSatrack.Cross\AppSatrack.Cross.Droid\obj\Debug\__library_projects__\Xamarin.Forms.Platform\library_project_imports\res</ResolvedResourceDirectory>
   </ResolvedResourceDirectories>
   <ResolvedAssetDirectories>
+    <ResolvedAssetDirectory>D:\Repos\SatrackSpike\AppSatrack\AppSatrack.Cross\AppSatrack.Cross.Droid\obj\Debug\__library_projects__\GalaSoft.MvvmLight.Platform\library_project_imports\assets</ResolvedAssetDirectory>
     <ResolvedAssetDirectory>D:\Repos\SatrackSpike\AppSatrack\AppSatrack.Cross\AppSatrack.Cross.Droid\obj\Debug\__library_projects__\Xamarin.Forms.Platform.Android\library_project_imports\assets</ResolvedAssetDirectory>
     <ResolvedAssetDirectory>D:\Repos\SatrackSpike\AppSatrack\AppSatrack.Cross\AppSatrack.Cross.Droid\obj\Debug\__library_projects__\Xamarin.Forms.Platform\library_project_imports\assets</ResolvedAssetDirectory>
   </ResolvedAssetDirectories>
   <ResolvedEnvironmentFiles />
   <ResolvedResourceDirectoryStamps>
+    <ResolvedResourceDirectoryStamp>D:\Repos\SatrackSpike\AppSatrack\AppSatrack.Cross\AppSatrack.Cross.Droid\obj\Debug\__library_projects__\GalaSoft.MvvmLight.Platform.stamp</ResolvedResourceDirectoryStamp>
     <ResolvedResourceDirectoryStamp>D:\Repos\SatrackSpike\AppSatrack\AppSatrack.Cross\AppSatrack.Cross.Droid\obj\Debug\__library_projects__\Xamarin.Forms.Platform.Android.stamp</ResolvedResourceDirectoryStamp>
     <ResolvedResourceDirectoryStamp>D:\Repos\SatrackSpike\AppSatrack\AppSatrack.Cross\AppSatrack.Cross.Droid\obj\Debug\__library_projects__\Xamarin.Forms.Platform.stamp</ResolvedResourceDirectoryStamp>
   </ResolvedResourceDirectoryStamps>

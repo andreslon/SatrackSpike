@@ -2,12 +2,14 @@
 <Application xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:converters="clr-namespace:AppSatrack.Cross.Converters;assembly=AppSatrack.Cross"
+             xmlns:infrastructure="clr-namespace:AppSatrack.Cross.Infrastructure;assembly=AppSatrack.Cross"
              x:Class="AppSatrack.Cross.App">
 
   <Application.Resources>
     <ResourceDictionary>
 
       <converters:AttendToColorConverter x:Key="AttendToColorConverter"></converters:AttendToColorConverter>
+      <infrastructure:ViewModelLocator x:Key="Locator" />
 
       <Color x:Key="BackgroundColor">#f2f2f2</Color>
       <Color x:Key="MenuBackgroundColor">#2c3e50</Color>
