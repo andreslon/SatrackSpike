@@ -2,15 +2,18 @@
 <Paths>
   <Jars></Jars>
   <ResolvedResourceDirectories>
+    <ResolvedResourceDirectory>E:\Spike\AppSatrack\AppSatrack.Cross\AppSatrack.Cross.Droid\obj\Debug\__library_projects__\GalaSoft.MvvmLight.Platform\library_project_imports\res</ResolvedResourceDirectory>
     <ResolvedResourceDirectory>E:\Spike\AppSatrack\AppSatrack.Cross\AppSatrack.Cross.Droid\obj\Debug\__library_projects__\Xamarin.Forms.Platform.Android\library_project_imports\res</ResolvedResourceDirectory>
     <ResolvedResourceDirectory>E:\Spike\AppSatrack\AppSatrack.Cross\AppSatrack.Cross.Droid\obj\Debug\__library_projects__\Xamarin.Forms.Platform\library_project_imports\res</ResolvedResourceDirectory>
   </ResolvedResourceDirectories>
   <ResolvedAssetDirectories>
+    <ResolvedAssetDirectory>E:\Spike\AppSatrack\AppSatrack.Cross\AppSatrack.Cross.Droid\obj\Debug\__library_projects__\GalaSoft.MvvmLight.Platform\library_project_imports\assets</ResolvedAssetDirectory>
     <ResolvedAssetDirectory>E:\Spike\AppSatrack\AppSatrack.Cross\AppSatrack.Cross.Droid\obj\Debug\__library_projects__\Xamarin.Forms.Platform.Android\library_project_imports\assets</ResolvedAssetDirectory>
     <ResolvedAssetDirectory>E:\Spike\AppSatrack\AppSatrack.Cross\AppSatrack.Cross.Droid\obj\Debug\__library_projects__\Xamarin.Forms.Platform\library_project_imports\assets</ResolvedAssetDirectory>
   </ResolvedAssetDirectories>
   <ResolvedEnvironmentFiles />
   <ResolvedResourceDirectoryStamps>
+    <ResolvedResourceDirectoryStamp>E:\Spike\AppSatrack\AppSatrack.Cross\AppSatrack.Cross.Droid\obj\Debug\__library_projects__\GalaSoft.MvvmLight.Platform.stamp</ResolvedResourceDirectoryStamp>
     <ResolvedResourceDirectoryStamp>E:\Spike\AppSatrack\AppSatrack.Cross\AppSatrack.Cross.Droid\obj\Debug\__library_projects__\Xamarin.Forms.Platform.Android.stamp</ResolvedResourceDirectoryStamp>
     <ResolvedResourceDirectoryStamp>E:\Spike\AppSatrack\AppSatrack.Cross\AppSatrack.Cross.Droid\obj\Debug\__library_projects__\Xamarin.Forms.Platform.stamp</ResolvedResourceDirectoryStamp>
   </ResolvedResourceDirectoryStamps>

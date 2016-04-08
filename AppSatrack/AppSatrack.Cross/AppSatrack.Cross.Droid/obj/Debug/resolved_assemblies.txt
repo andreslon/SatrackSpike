@@ -2,6 +2,10 @@ E:\Spike\AppSatrack\AppSatrack.Cross\AppSatrack.Cross.Droid\obj\Debug\android\as
 E:\Spike\AppSatrack\AppSatrack.Cross\AppSatrack.Cross.Droid\obj\Debug\android\assets\AppSatrack.Cross.dll
 E:\Spike\AppSatrack\AppSatrack.Cross\AppSatrack.Cross.Droid\obj\Debug\android\assets\AppSatrack.Infrastructure.dll
 E:\Spike\AppSatrack\AppSatrack.Cross\AppSatrack.Cross.Droid\obj\Debug\android\assets\FormsViewGroup.dll
+E:\Spike\AppSatrack\AppSatrack.Cross\AppSatrack.Cross.Droid\obj\Debug\android\assets\GalaSoft.MvvmLight.dll
+E:\Spike\AppSatrack\AppSatrack.Cross\AppSatrack.Cross.Droid\obj\Debug\android\assets\GalaSoft.MvvmLight.Extras.dll
+E:\Spike\AppSatrack\AppSatrack.Cross\AppSatrack.Cross.Droid\obj\Debug\android\assets\GalaSoft.MvvmLight.Platform.dll
+E:\Spike\AppSatrack\AppSatrack.Cross\AppSatrack.Cross.Droid\obj\Debug\android\assets\Microsoft.Practices.ServiceLocation.dll
 E:\Spike\AppSatrack\AppSatrack.Cross\AppSatrack.Cross.Droid\obj\Debug\android\assets\Mono.Android.dll
 E:\Spike\AppSatrack\AppSatrack.Cross\AppSatrack.Cross.Droid\obj\Debug\android\assets\mscorlib.dll
 E:\Spike\AppSatrack\AppSatrack.Cross\AppSatrack.Cross.Droid\obj\Debug\android\assets\System.Core.dll
@@ -24,7 +28,6 @@ E:\Spike\AppSatrack\AppSatrack.Cross\AppSatrack.Cross.Droid\obj\Debug\android\as
 E:\Spike\AppSatrack\AppSatrack.Cross\AppSatrack.Cross.Droid\obj\Debug\android\assets\System.ServiceModel.Security.dll
 E:\Spike\AppSatrack\AppSatrack.Cross\AppSatrack.Cross.Droid\obj\Debug\android\assets\System.Threading.Timer.dll
 E:\Spike\AppSatrack\AppSatrack.Cross\AppSatrack.Cross.Droid\obj\Debug\android\assets\AppSatrack.Logic.dll
-E:\Spike\AppSatrack\AppSatrack.Cross\AppSatrack.Cross.Droid\obj\Debug\android\assets\GalaSoft.MvvmLight.dll
 E:\Spike\AppSatrack\AppSatrack.Cross\AppSatrack.Cross.Droid\obj\Debug\android\assets\System.Runtime.Serialization.dll
 E:\Spike\AppSatrack\AppSatrack.Cross\AppSatrack.Cross.Droid\obj\Debug\android\assets\System.ServiceModel.Internals.dll
 E:\Spike\AppSatrack\AppSatrack.Cross\AppSatrack.Cross.Droid\obj\Debug\android\assets\System.Net.Http.dll

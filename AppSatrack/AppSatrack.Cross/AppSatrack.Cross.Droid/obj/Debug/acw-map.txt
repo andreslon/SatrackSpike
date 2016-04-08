@@ -2,6 +2,18 @@ AppSatrack.Cross.Droid.MainActivity, AppSatrack.Cross.Droid;md5c228d26a2db0baa10
 AppSatrack.Cross.Droid.MainActivity, AppSatrack.Cross.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5c228d26a2db0baa10ddfb7c58ab57c4c.MainActivity
 AppSatrack.Cross.Droid.MainActivity;md5c228d26a2db0baa10ddfb7c58ab57c4c.MainActivity
 appsatrack.cross.droid.MainActivity;md5c228d26a2db0baa10ddfb7c58ab57c4c.MainActivity
+GalaSoft.MvvmLight.Helpers.ObservableAdapter`1, GalaSoft.MvvmLight.Platform;md55dc181f3f5d032487c91212af011cba3.ObservableAdapter_1
+GalaSoft.MvvmLight.Helpers.ObservableAdapter`1, GalaSoft.MvvmLight.Platform, Version=5.2.0.37256, Culture=neutral, PublicKeyToken=null;md55dc181f3f5d032487c91212af011cba3.ObservableAdapter_1
+GalaSoft.MvvmLight.Helpers.ObservableAdapter`1;md55dc181f3f5d032487c91212af011cba3.ObservableAdapter_1
+galasoft.mvvmlight.helpers.ObservableAdapter_1;md55dc181f3f5d032487c91212af011cba3.ObservableAdapter_1
+GalaSoft.MvvmLight.Views.ActivityBase, GalaSoft.MvvmLight.Platform;md55fcffd656279cb1a5e512024c748879c.ActivityBase
+GalaSoft.MvvmLight.Views.ActivityBase, GalaSoft.MvvmLight.Platform, Version=5.2.0.37256, Culture=neutral, PublicKeyToken=null;md55fcffd656279cb1a5e512024c748879c.ActivityBase
+GalaSoft.MvvmLight.Views.ActivityBase;md55fcffd656279cb1a5e512024c748879c.ActivityBase
+galasoft.mvvmlight.views.ActivityBase;md55fcffd656279cb1a5e512024c748879c.ActivityBase
+GalaSoft.MvvmLight.Views.DialogService/OnDismissListener, GalaSoft.MvvmLight.Platform;md55fcffd656279cb1a5e512024c748879c.DialogService_OnDismissListener
+GalaSoft.MvvmLight.Views.DialogService+OnDismissListener, GalaSoft.MvvmLight.Platform, Version=5.2.0.37256, Culture=neutral, PublicKeyToken=null;md55fcffd656279cb1a5e512024c748879c.DialogService_OnDismissListener
+GalaSoft.MvvmLight.Views.DialogService.OnDismissListener;md55fcffd656279cb1a5e512024c748879c.DialogService_OnDismissListener
+galasoft.mvvmlight.views.DialogService_OnDismissListener;md55fcffd656279cb1a5e512024c748879c.DialogService_OnDismissListener
 Android.Support.Design.Widget.Snackbar/SnackbarActionClickImplementor, Xamarin.Android.Support.Design;android.support.design.widget.Snackbar_SnackbarActionClickImplementor
 Android.Support.Design.Widget.Snackbar+SnackbarActionClickImplementor, Xamarin.Android.Support.Design, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;android.support.design.widget.Snackbar_SnackbarActionClickImplementor
 Android.Support.Design.Widget.Snackbar.SnackbarActionClickImplementor;android.support.design.widget.Snackbar_SnackbarActionClickImplementor

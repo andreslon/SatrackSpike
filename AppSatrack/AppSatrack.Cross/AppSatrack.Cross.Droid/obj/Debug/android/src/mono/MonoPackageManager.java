@@ -83,6 +83,10 @@ class MonoPackageManager_Resources {
 		"AppSatrack.Cross.dll",
 		"AppSatrack.Infrastructure.dll",
 		"FormsViewGroup.dll",
+		"GalaSoft.MvvmLight.dll",
+		"GalaSoft.MvvmLight.Extras.dll",
+		"GalaSoft.MvvmLight.Platform.dll",
+		"Microsoft.Practices.ServiceLocation.dll",
 		"Xamarin.Android.Support.Design.dll",
 		"Xamarin.Android.Support.v4.dll",
 		"Xamarin.Android.Support.v7.AppCompat.dll",
@@ -99,7 +103,6 @@ class MonoPackageManager_Resources {
 		"System.ServiceModel.Security.dll",
 		"System.Threading.Timer.dll",
 		"AppSatrack.Logic.dll",
-		"GalaSoft.MvvmLight.dll",
 		"System.ServiceModel.Internals.dll",
 	};
 	public static final String[] Dependencies = new String[]{

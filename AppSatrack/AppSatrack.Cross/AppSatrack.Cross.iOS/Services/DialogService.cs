@@ -1,9 +1,7 @@
 ﻿using AppSatrack.Infrastructure.Interfaces;
 using System;
-using System.Collections.Generic;
-using System.Text;
 
-namespace AppSatrack.Cross.iOS.Services
+namespace AppSatrack.Cross.Services
 {
     public class DialogService : IDialogService
     {
