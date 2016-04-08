@@ -1,10 +1,9 @@
-﻿using AppSatrack.Logic.ViewModels;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+using AppSatrack.Logic.ViewModels;
 using Xamarin.Forms;
 
 namespace AppSatrack.Cross.Views
@@ -15,30 +14,15 @@ namespace AppSatrack.Cross.Views
         {
             InitializeComponent();
 
-            this.BindingContext = new MainViewModel();
-            listViewAlarma.ItemsSource = ((MainViewModel)this.BindingContext).listAlarma;
 
-            //Ejemplo de llamado a otro Page, pero para esta arquitectura se va a utilizar ICommand e Inyección de Dependencias
-            //listViewAlarma.ItemSelected += ListViewAlarma_ItemSelected;
         }
 
-        async void ListViewAlarma_ItemSelected(object sender, SelectedItemChangedEventArgs e)
-        {
-            DetailAlarmPage detailPage = new DetailAlarmPage();
-            NavigationPage.SetBackButtonTitle(detailPage, "Back"); //iOS
-            await App.navigationPage.PushAsync(detailPage);
-        }
-
-        //OnResume
         protected override void OnAppearing()
         {
             base.OnAppearing();
-        }
+            var bind = (MainViewModel)BindingContext;
+            var lst = bind.listAlarma;
 
-        //OnPause
-        protected override void OnDisappearing()
-        {
-            base.OnDisappearing();
         }
     }
 }

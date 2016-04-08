@@ -4,6 +4,7 @@ using System.Linq;
 
 using Foundation;
 using UIKit;
+using AppSatrack.Cross.Services;
 
 namespace AppSatrack.Cross.iOS
 {
@@ -25,6 +26,7 @@ namespace AppSatrack.Cross.iOS
             global::Xamarin.Forms.Forms.Init();
             LoadApplication(new App());
 
+            App.DependencyContainerService = new DependencyContainerService();
             return base.FinishedLaunching(app, options);
         }
     }

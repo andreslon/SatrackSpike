@@ -1,11 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             BindingContext="{Binding Main, Source={StaticResource Locator}}"
              x:Class="AppSatrack.Cross.Views.MainPage" Title="">
 
 
   <Grid>
-    <ListView  x:Name="listViewAlarma" HasUnevenRows="True">
+    <ListView  HasUnevenRows="True" ItemsSource="{Binding listAlarma}">
       <ListView.ItemTemplate>
         <DataTemplate>
           <ViewCell>

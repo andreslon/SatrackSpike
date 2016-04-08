@@ -153,6 +153,10 @@
       <Project>{3969e2e4-cc93-439f-82ad-42e131332d7b}</Project>
       <Name>AppSatrack.Infrastructure</Name>
     </ProjectReference>
+    <ProjectReference Include="..\..\AppSatrack.Logic\AppSatrack.Logic.csproj">
+      <Project>{8B0B4E9D-DF04-4EE5-8BFB-84514D3E25E1}</Project>
+      <Name>AppSatrack.Logic</Name>
+    </ProjectReference>
     <ProjectReference Include="..\AppSatrack.Cross\AppSatrack.Cross.csproj">
       <Name>AppSatrack.Cross</Name>
     </ProjectReference>

@@ -1,19 +1,30 @@
-﻿using System;
+﻿using AppSatrack.Infrastructure;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
 namespace AppSatrack.Logic.ViewModels
 {
-    public class MainViewModel
+    public class MainViewModel : BindableBase
     {
         public List<MenuViewModel> listmenu;
-        public List<AlarmaViewModel> listAlarma;
+        public List<AlarmaViewModel> _listAlarma;
+        public List<AlarmaViewModel> listAlarma {
+            set {
+                Set(ref _listAlarma, value);
+            }
+            get {
+                return _listAlarma;
+            }
+        }
+
+        protected string _Nombre { get; set; }
 
         public MainViewModel()
         {
             listmenu = new List<MenuViewModel>();
-            listmenu.Add(new MenuViewModel { title="Ubicaciones", image="icon.png"});
+            listmenu.Add(new MenuViewModel { title = "Ubicaciones", image = "icon.png" });
             listmenu.Add(new MenuViewModel { title = "Alarmas", image = "icon.png" });
             listmenu.Add(new MenuViewModel { title = "Noticias", image = "icon.png" });
 
@@ -25,7 +36,7 @@ namespace AppSatrack.Logic.ViewModels
         private void ObtenerAlarmas()
         {
             ///TODO: Consumo al API
-            listAlarma.Add(new AlarmaViewModel {Atendida = true, Fecha = DateTime.Now, Placa = "PLACA1", TipoEvento = "Botón de Pánico" });
+            listAlarma.Add(new AlarmaViewModel { Atendida = true, Fecha = DateTime.Now, Placa = "PLACA1", TipoEvento = "Botón de Pánico" });
             listAlarma.Add(new AlarmaViewModel { Atendida = false, Fecha = DateTime.Now, Placa = "PLACA2", TipoEvento = "Abandono de Región" });
             listAlarma.Add(new AlarmaViewModel { Atendida = true, Fecha = DateTime.Now, Placa = "PLACA3", TipoEvento = "Botón de Pánico" });
             listAlarma.Add(new AlarmaViewModel { Atendida = false, Fecha = DateTime.Now, Placa = "PLACA4", TipoEvento = "Botón de Pánico" });

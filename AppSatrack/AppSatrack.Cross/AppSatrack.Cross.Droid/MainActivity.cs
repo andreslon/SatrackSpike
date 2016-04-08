@@ -8,6 +8,8 @@ using Android.Widget;
 using Android.OS;
 using Xamarin.Forms.Platform.Android;
 using Xamarin.Forms;
+using AppSatrack.Infrastructure.Interfaces;
+using AppSatrack.Cross.Services;
 
 namespace AppSatrack.Cross.Droid
 {
@@ -21,6 +23,8 @@ namespace AppSatrack.Cross.Droid
 
             base.OnCreate(bundle);
             Forms.Init(this, bundle);
+
+            App.DependencyContainerService = new DependencyContainerService();
             LoadApplication(new App());
             
         }
