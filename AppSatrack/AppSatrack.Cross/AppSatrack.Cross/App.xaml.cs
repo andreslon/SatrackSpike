@@ -17,6 +17,12 @@ namespace AppSatrack.Cross
         private MasterDetailPage masterDetailPage;
         public static NavigationPage navigationPage;
         public static IDependencyContainerService DependencyContainerService { get; set; }
+
+        internal static void SetUbicacionesPage()
+        {
+            throw new NotImplementedException();
+        }
+
         public App()
         {
             InitializeComponent();

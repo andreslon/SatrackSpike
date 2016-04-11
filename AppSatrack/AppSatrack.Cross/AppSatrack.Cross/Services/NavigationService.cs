@@ -16,6 +16,7 @@ namespace AppSatrack.Cross.Services
                 case PageTypes.Login:
                     break;
                 case PageTypes.Main:
+                    App.SetUbicacionesPage();
                     break;
                 case PageTypes.AlarmDetail:
                     page = new AlarmDetailPage();

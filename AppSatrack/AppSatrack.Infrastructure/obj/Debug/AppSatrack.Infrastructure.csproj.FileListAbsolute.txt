@@ -19,3 +19,7 @@ D:\Repos\SatrackSpike\AppSatrack\AppSatrack.Infrastructure\obj\Debug\AppSatrack.
 D:\Repos\SatrackSpike\AppSatrack\AppSatrack.Infrastructure\bin\Debug\AppSatrack.Infrastructure.dll.mdb
 D:\Repos\SatrackSpike\AppSatrack\AppSatrack.Infrastructure\obj\Debug\AppSatrack.Infrastructure.dll.mdb
 D:\Repos\SatrackSpike\AppSatrack\AppSatrack.Infrastructure\bin\Debug\AppSatrack.Infrastructure.dll.mdb
+D:\Repos\SatrackSpike\AppSatrack\AppSatrack.Infrastructure\obj\Debug\AppSatrack.Infrastructure.dll.mdb
+D:\Repos\SatrackSpike\AppSatrack\AppSatrack.Infrastructure\bin\Debug\AppSatrack.Infrastructure.dll.mdb
+D:\Repos\SatrackSpike\AppSatrack\AppSatrack.Infrastructure\obj\Debug\AppSatrack.Infrastructure.dll.mdb
+D:\Repos\SatrackSpike\AppSatrack\AppSatrack.Infrastructure\bin\Debug\AppSatrack.Infrastructure.dll.mdb
